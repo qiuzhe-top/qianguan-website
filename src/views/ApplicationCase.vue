@@ -9,7 +9,7 @@
 
     <div class="ArticleList">
       <div class="item bj1"
-           v-for="(item,index) in list "
+           v-for="(item,index) in goods.img_list "
            :key="index">
         <div class="img bj2"></div>
         <div class="msg bj2">
@@ -36,11 +36,11 @@ import goods from "@/json/goods.json";
 export default {
   data () {
     return {
-      list: [1, 1, 1, 1, 1, , 1, 1, 1, 1, 1, 1]
+      goods: {}
     }
   },
-  created:{
-
+  created:function(){
+    this.$data.goods = goods[1]
   }
 }
 </script>

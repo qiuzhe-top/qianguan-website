@@ -2,26 +2,37 @@
   <div>
     <!-- 产品展示 -->
     <div class="header">
-      <div class="goods bj1">
-        <div class="img bj2"></div>
-        <div class="list bj2">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+
+      <div class="goods ">
+
+        <div class="img ">
+          <el-image :src="require('@/'+goods.src)"
+                    style="height:100%"
+                    fit="contain"></el-image>
         </div>
+
+        <div class="list ">
+          <div v-for="(src,index) in goods.img_list"
+               :key="index"
+               @click="switch_img(src)">
+            <el-image :src="require('@/'+src)"
+                      style="height:100%"
+                      fit="contain"></el-image>
+          </div>
+        </div>
+
       </div>
-      <div class="title-box bj1">
-        <div class="title bj2"></div>
-        <div class="message bj2"></div>
+
+      <div class="title-box ">
+        <div class="title ">{{goods.title}}</div>
+        <div class="message ">{{goods.message}}</div>
       </div>
     </div>
 
     <!-- 产品参数 -->
-    <div class="tab bj1">
-
-      <el-tabs v-model="activeName"
-               @tab-click="handleClick">
+    <div class="tab ">
+      <!-- @tab-click="handleClick" -->
+      <el-tabs v-model="activeName">
         <el-tab-pane label="产品简介"
                      name="first">
           <div class="tab-pane">产品简介</div>
@@ -42,14 +53,24 @@
 </template>
 
 <script>
+import goods from "@/json/goods.json";
 
 export default {
   data () {
     return {
-      activeName: 'first'
+      activeName: 'first',
+      goods: {}
     }
   },
-  
+  created: function (option) {
+    console.log(option)
+    this.$data.goods = goods[1]
+  },
+  methods: {
+    switch_img (src) {
+      this.$data.goods.src = src
+    }
+  }
 }
 </script>
 
@@ -65,9 +86,12 @@ export default {
   margin-left: 100px;
   height: @goods_width / 3 * 2.5;
   flex: 1;
+  text-align: left;
   .title {
     // width: 100px;
     height: 50px;
+    font-size: 25px;
+    font-weight: 600;
   }
   .message {
     // width: 100px;
@@ -94,9 +118,11 @@ export default {
     div {
       width: 80px;
       height: 40px;
-      margin: 5px;
-      background-color: rgb(156, 193, 196);
+      // margin: 5px;
+      // background-color: rgb(156, 193, 196);
+      border: rgba(197, 197, 197, 0.418) 1px solid;
       // float: left;
+      cursor: pointer;
     }
   }
 }
@@ -106,5 +132,27 @@ export default {
     min-height: 800px;
   }
   margin-bottom: 80px;
+}
+</style>
+
+<style lang="less">
+.el-tabs__nav-wrap::after {
+  background-color: rgba(255, 255, 255, 0);
+}
+.el-tabs__active-bar {
+  height: 5px;
+  background-color: rgba(107, 214, 45, 0.966);
+}
+
+.el-tabs__nav-scroll {
+  display: flex;
+  // justify-content: center;
+  .el-tabs__item {
+    padding: 0 20px;
+    color: rgba(46, 92, 19, 0.966);
+  }
+}
+.el-tabs__item.is-active {
+  color: rgba(46, 92, 19, 0.966);
 }
 </style>
