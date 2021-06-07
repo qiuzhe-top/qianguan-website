@@ -8,7 +8,7 @@
     </div>
 
     <div class="ArticleList">
-      <div class="item bj1"
+      <div class="item "
            v-for="(item,index) in news"
            :key="index">
         <div class="img bj2">
@@ -19,7 +19,7 @@
                     fit="contain"></el-image>
 
         </div>
-        <div class="msg bj2">
+        <div class="msg ">
           <div class="title "
                @click="toGoods(index)">{{item.title}}</div>
           <div class="message "
@@ -84,7 +84,7 @@ export default {
 <style lang="less" scoped>
 .img-box {
   height: 300px;
-  box-shadow: inset 1px 5px 10px #bfbfbf73;
+  box-shadow: inset 1px 5px 10px #e6e6e6;
   margin-bottom: 100px;
 }
 .ArticleList {
@@ -94,6 +94,8 @@ export default {
     margin-bottom: 20px;
     @w: 260px;
     text-align: left;
+    background-color: #f7f7f7;
+    padding: 20px 0;
     .img {
       width: @w;
       height: @w / 3 * 2;

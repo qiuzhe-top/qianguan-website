@@ -17,9 +17,9 @@
                       @click="toPage('ProductCenter')">
           产品中心
         </el-menu-item>
-        <el-menu-item index="7">
+        <!-- <el-menu-item index="7">
           <router-link to="/ProductIntroduction">产品介绍</router-link>
-        </el-menu-item>
+        </el-menu-item> -->
         <el-submenu index="3">
           <template slot="title">技术支持</template>
           <el-menu-item index="2-1">选项1</el-menu-item>
