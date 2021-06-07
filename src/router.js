@@ -50,5 +50,14 @@ export default new Router({
         Bottom: () => import('@/components/Bottom')
       },
     },
+    {
+      path: '/NewsDetails',
+      name: 'NewsDetails',
+      components: {
+        default: () => import('@/views/NewsDetails'),
+        Header: () => import('@/components/Header'),
+        Bottom: () => import('@/components/Bottom')
+      },
+    },
   ]
 })

@@ -26,11 +26,14 @@
         <div class="img ">
           <el-image style="height: 100%; "
                     :src="require('@/' + item.src)"
+                    @click="toGoods(index)"
                     fit="contain"></el-image>
         </div>
-        <div class="title ">{{item.title}}</div>
+        <div class="title "
+             @click="toGoods(index)">{{item.title}}</div>
         <!-- <div class="message bj2">{{item.message}}</div> -->
-        <div class="button">查看详情</div>
+        <div class="button"
+             @click="toGoods(index)">查看详情</div>
       </div>
     </div>
 
@@ -60,7 +63,6 @@ export default {
   },
   created: function () {
     // `this` 指向 vm 实例
-    console.log(goods.length)
     this.$data.total = goods.length
     var e = 0
     var page_size = this.$data.page_size
@@ -79,6 +81,9 @@ export default {
       // 2 3  2 4
       // 4 5  4 6
       this.$data.goods = goods.slice(e * page_size, e * page_size + page_size)
+    },
+    toGoods: function (index) {
+      this.$router.push({ name: 'ProductIntroduction', query: { i: index } })
     }
   }
 }

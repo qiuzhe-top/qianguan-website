@@ -63,8 +63,7 @@ export default {
     }
   },
   created: function (option) {
-    console.log(option)
-    this.$data.goods = goods[1]
+    this.$data.goods = goods[this.$route.query.i]
   },
   methods: {
     switch_img (src) {

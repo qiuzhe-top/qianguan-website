@@ -9,38 +9,73 @@
 
     <div class="ArticleList">
       <div class="item bj1"
-           v-for="(item,index) in goods.img_list "
+           v-for="(item,index) in news"
            :key="index">
-        <div class="img bj2"></div>
+        <div class="img bj2">
+
+          <el-image style="height:100%"
+                    :src="require('@/'+item.src)"
+                    @click="toGoods(index)"
+                    fit="contain"></el-image>
+
+        </div>
         <div class="msg bj2">
-          <div class="title bj3"></div>
-          <div class="message bj3"></div>
-          <div class="button bj3"></div>
+          <div class="title "
+               @click="toGoods(index)">{{item.title}}</div>
+          <div class="message "
+               @click="toGoods(index)">{{item.message}}</div>
+          <div class="button ">
+            <el-button type="primary"
+                       @click="toGoods(index)">查看详情</el-button>
+          </div>
         </div>
       </div>
     </div>
-
+    <div v-html="ht"></div>
     <!-- 分页 -->
-    <div class="page bj1">
+    <div class="page">
+
       <el-pagination background
                      layout="prev, pager, next"
-                     :total="1000">
+                     :page-size="page_size"
+                     @current-change="current_change"
+                     :total="total">
+
       </el-pagination>
+
     </div>
   </div>
 </template>
 
 <script>
-import goods from "@/json/goods.json";
+import news from "@/json/news.json";
 
 export default {
   data () {
     return {
-      goods: {}
+      news: [],
+      total: 1,
+      page_size: 5,
     }
   },
-  created:function(){
-    this.$data.goods = goods[1]
+  created: function () {
+    this.$data.news = news
+    this.$data.total = news.length
+    var e = 0
+    var page_size = this.$data.page_size
+    this.$data.news = news.slice(e, e + page_size)
+  },
+  methods: {
+
+    current_change: function (e) {
+      var page_size = this.$data.page_size
+      e -= 1
+      this.$data.news = news.slice(e * page_size, e * page_size + page_size)
+    },
+    toGoods: function (index) {
+      this.$router.push({ name: 'NewsDetails', query: { i: index } })
+    }
+
   }
 }
 </script>
@@ -58,26 +93,36 @@ export default {
     justify-content: space-around;
     margin-bottom: 20px;
     @w: 260px;
+    text-align: left;
     .img {
       width: @w;
       height: @w / 3 * 2;
+      cursor: pointer;
     }
     .msg {
       height: @w / 3 * 2;
+      cursor: pointer;
+
       flex: 0.9;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       .title {
         height: 40px;
+        font-size: 20px;
+        font-weight: 600;
       }
       .message {
         height: 50px;
+        cursor: pointer;
+
         // margin-top: 10px;
       }
       .button {
         width: 90px;
         height: 50px;
+        cursor: pointer;
+
         // margin-top: 10px;
       }
     }

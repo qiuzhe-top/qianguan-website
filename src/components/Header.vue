@@ -9,11 +9,13 @@
                mode="horizontal"
                @select="handleSelect">
         <!-- horizontal / vertical -->
-        <el-menu-item index="1">
-          <router-link to="/">首页</router-link>
+        <el-menu-item index="1"
+                      @click="toPage('Index')">
+          首页
         </el-menu-item>
-        <el-menu-item index="2">
-          <router-link to="/ProductCenter">产品中心</router-link>
+        <el-menu-item index="2"
+                      @click="toPage('ProductCenter')">
+          产品中心
         </el-menu-item>
         <el-menu-item index="7">
           <router-link to="/ProductIntroduction">产品介绍</router-link>
@@ -30,13 +32,16 @@
             <el-menu-item index="2-4-3">选项3</el-menu-item>
           </el-submenu>
         </el-submenu>
-        <el-menu-item index="4">
-          <router-link to="/ApplicationCase">应用案例</router-link>
+        <el-menu-item index="4"
+                      @click="toPage('ApplicationCase')">
+          最新资讯
         </el-menu-item>
-        <el-menu-item index="5">
-          <router-link to="/About">关于我们</router-link>
+        <el-menu-item index="5"
+                      @click="toPage('About')">
+          关于我们
         </el-menu-item>
-        <el-menu-item index="6">联系我们</el-menu-item>
+        <el-menu-item index="6"
+                      @click="toPage('About')">联系我们</el-menu-item>
       </el-menu>
 
       <!-- <div class="tal">010-88351020</div> -->
@@ -57,6 +62,9 @@ export default {
     handleSelect (key, keyPath) {
       console.log(key, keyPath);
     },
+    toPage (url) {
+      this.$router.push({ name: url })
+    }
   },
 };
 </script>
