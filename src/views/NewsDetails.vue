@@ -18,7 +18,12 @@ export default {
     }
   },
   created: function () {
-    this.$data.news = news[this.$route.query.i]
+    var index = this.$route.query.i
+    if(index){
+      this.$data.news = news[this.$route.query.i]
+    }
+    
+
   },
   methods: {
 

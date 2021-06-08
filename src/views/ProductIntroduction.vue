@@ -62,8 +62,23 @@ export default {
       goods: {}
     }
   },
-  created: function (option) {
+  created: function () {
     this.$data.goods = goods[this.$route.query.i]
+
+
+    var id = this.$route.query.id
+    if (id) {
+
+      goods.forEach((element) => {
+        var id_d = element["id"];
+        if (id + "" == id_d + "") {
+          this.$data.goods = element;
+        }
+      });
+
+    }
+
+
   },
   methods: {
     switch_img (src) {

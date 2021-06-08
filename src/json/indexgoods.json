@@ -1,0 +1,126 @@
+[
+
+    {
+      "name": "不锈钢垃圾桶",
+      "type": "c1",
+      "id":"16411113",
+      "url":"assets/i-1-1.png",
+      "list": [
+        {
+          "id":6412,
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+        },
+        {
+          "id":6412,
+
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "id":6412,
+
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "id":6412,
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        }
+      ]
+    },
+    {
+      "id":6412,
+
+      "name": "不锈钢垃圾桶",
+      "type": "c2",
+      "url":"assets/i-1-1.png",
+      
+      "list": [
+        {
+          "id":6412,
+
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "id":6412,
+
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        }
+      ]
+    },
+    {
+      "name": "不锈钢垃圾桶",
+      "type": "c3",
+      "url":"assets/i-1-1.png",
+      "list": [
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        }
+      ]
+    },
+    {
+      "name": "不锈钢垃圾桶",
+      "type": "c4",
+      "id":123,
+      "url":"assets/i-1-1.png",
+      "list": [
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        },
+        {
+          "name": "不锈钢垃圾桶",
+          "url":"assets/i-1-2.png"
+
+        }
+      ]
+    } 
+
+  ]

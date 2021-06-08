@@ -18,9 +18,12 @@
           产品中心
         </el-menu-item>
         <!-- <el-menu-item index="7">
+
+          
           <router-link to="/ProductIntroduction">产品介绍</router-link>
         </el-menu-item> -->
-        <el-submenu index="3">
+
+        <!-- <el-submenu index="3">
           <template slot="title">技术支持</template>
           <el-menu-item index="2-1">选项1</el-menu-item>
           <el-menu-item index="2-2">选项2</el-menu-item>
@@ -31,7 +34,9 @@
             <el-menu-item index="2-4-2">选项2</el-menu-item>
             <el-menu-item index="2-4-3">选项3</el-menu-item>
           </el-submenu>
-        </el-submenu>
+        </el-submenu> -->
+
+
         <el-menu-item index="4"
                       @click="toPage('ApplicationCase')">
           最新资讯

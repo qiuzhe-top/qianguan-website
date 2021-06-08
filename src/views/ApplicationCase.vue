@@ -11,7 +11,7 @@
       <div class="item "
            v-for="(item,index) in news"
            :key="index">
-        <div class="img bj2">
+        <div class="img ">
 
           <el-image style="height:100%"
                     :src="require('@/'+item.src)"
@@ -73,7 +73,7 @@ export default {
       this.$data.news = news.slice(e * page_size, e * page_size + page_size)
     },
     toGoods: function (index) {
-      this.$router.push({ name: 'NewsDetails', query: { i: index } })
+      this.$router.push({ name: 'NewsDetails', query: { i: index  } })
     }
 
   }
@@ -98,6 +98,7 @@ export default {
     padding: 20px 0;
     .img {
       width: @w;
+    background-color: #f1f0f0;
       height: @w / 3 * 2;
       cursor: pointer;
     }

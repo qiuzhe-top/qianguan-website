@@ -1,179 +1,80 @@
 <template>
   <!-- 产品中心 -->
   <div class="pro-min">
-
     <div class="back-box1 position-abs-100 bj1"></div>
     <div class="back-box2 position-abs-100 bj2"></div>
 
     <h1 class="index-h2">产品中心</h1>
     <div class="product-list width-auto">
-
-      <el-tabs class="list width-auto"
-               v-model="activeName"
-               @tab-click="handleClick">
+      <el-tabs
+        class="list width-auto"
+        v-model="activeName"
+        @tab-click="handleClick"
+      >
         <!-- 切换模块 -->
-        <el-tab-pane v-for="(item,index) in product_list"
-                     :key="index"
-                     :label="item.name"
-                     :name="item.type">
-
+        <el-tab-pane
+          v-for="(item, index) in product_list"
+          :key="index"
+          :label="item.name"
+          :name="item.type"
+        >
           <el-row>
             <!-- 左边大图 -->
-            <el-col :xs="24"
-                    :md="9">
+            <el-col :xs="24" :md="9">
               <div class="grid-content bg-purple box-1">
-                <el-image :src="item.url"
-                          fit="contain"
-                          class="img-box">
-                  <div slot="placeholder"
-                       class="image-slot">
+                <el-image  :src="require('@/' + item.url)" 
+                @click="toGoods(item.id)"
+                fit="contain" class="img-box">
+                  <div slot="placeholder" class="image-slot">
                     加载中<span class="dot">...</span>
                   </div>
                 </el-image>
-                <div class="title">{{item.name}}</div>
+                <div class="title"  @click="toGoods(item.id)">{{ item.name }}</div>
               </div>
             </el-col>
             <!-- 右边4张图片 -->
-            <el-col :xs="24"
-                    :md="15">
+            <el-col :xs="24" :md="15">
               <div class="grid-content bg-purple-light box-2">
-
-                <div v-for="(item2,index2) in item.list"
-                     :key="index2">
-                  <el-image :src="item2.url"
-                            fit="contain"
-                            class="img-box">
-                    <div slot="placeholder"
-                         class="image-slot">
+                <div v-for="(item2, index2) in item.list" :key="index2">
+                  <el-image
+                    :src="require('@/' + item2.url)"
+                    fit="contain"
+                    class="img-box"
+                    @click="toGoods(item2.id)"
+                  >
+                    <div slot="placeholder" class="image-slot">
                       加载中<span class="dot">...</span>
                     </div>
                   </el-image>
-                  <div class="title">{{item2.name}}</div>
+                  <div class="title" @click="toGoods(item2.id)">{{ item2.name }}</div>
                 </div>
-
               </div>
             </el-col>
-
           </el-row>
-
         </el-tab-pane>
-
       </el-tabs>
-
     </div>
-
   </div>
 </template>
 <script>
+import data_list from "@/json/indexgoods.json";
+
 export default {
-  data () {
+  data() {
     return {
-      activeName: 'c1',
-      src: 'https://tse1-mm.cn.bing.net/th/id/OIP.V7n5XtfDiI7oeKPz1oxD1gHaLG?w=192&h=288&c=7&o=5&pid=1.7',
-      product_list: [
-
-        {
-          name: "不锈钢垃圾桶",
-          type: 'c1',
-          url: require('@/assets/i-1-1.png'),
-          list: [
-            {
-              name: '不锈钢垃圾桶',
-              url: require('@/assets/i-1-2.png'),
-
-            },
-            {
-              name: '不锈钢垃圾桶',
-              url: require('@/assets/i-1-2.png'),
-
-            },
-            {
-              name: '不锈钢垃圾桶',
-              url: require('@/assets/i-1-2.png'),
-
-            },
-            {
-              name: '不锈钢垃圾桶',
-              url: require('@/assets/i-1-2.png'),
-
-            }
-          ]
-        },
-
-        {
-          name: "医疗垃圾桶",
-          type: 'c2',
-          list: [
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-          ]
-        },
-        {
-          name: "不锈钢垃圾桶",
-          type: 'c3',
-          list: [
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-          ]
-        },
-        {
-          name: "智能垃圾柜",
-          type: 'c4',
-          list: [
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-            {
-              name: '标题',
-              url: ''
-            },
-          ]
-        },
-
-      ]
-    }
+      activeName: "c1",
+      src: "https://tse1-mm.cn.bing.net/th/id/OIP.V7n5XtfDiI7oeKPz1oxD1gHaLG?w=192&h=288&c=7&o=5&pid=1.7",
+      product_list: data_list,
+    };
   },
+ 
   methods: {
-    handleClick (tab, event) {
+    handleClick(tab, event) {
       console.log(tab, event);
     },
+    toGoods: function (index) {
+      this.$router.push({ name: 'ProductIntroduction', query: { id: index } })
+    }
   },
 };
 </script>
@@ -246,10 +147,13 @@ export default {
     flex-wrap: wrap;
 
     .img-box {
+      cursor: pointer;
       width: @goods_img_size;
       height: @goods_img_size;
     }
     .title {
+      cursor: pointer;
+
       padding-top: 10px;
     }
   }
@@ -280,6 +184,7 @@ export default {
     background-color: rgb(240, 240, 240);
 
     .img-box {
+      cursor: pointer;
       width: 100%;
       height: @goods_right_h_size;
       overflow: hidden;
@@ -289,6 +194,9 @@ export default {
     }
     .title {
       padding-top: 10px;
+      cursor: pointer;
+
+
     }
   }
 
