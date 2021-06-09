@@ -56,7 +56,15 @@
   </div>
 </template>
 
-
+<script>
+export default {
+  methods: {
+    toGoods: function (index) {
+      this.$router.push({ name: 'NewsDetails', query: { i: index } })
+    }
+  }
+}
+</script>
 <style lang="less" scoped>
 .bottom {
   background-color: rgb(24, 24, 24);

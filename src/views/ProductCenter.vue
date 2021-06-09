@@ -1,46 +1,51 @@
 <template>
   <div class="product">
     <!-- 背景大图 -->
-    <div class="img-box bj1 position-abs-100"></div>
-    <div class="img-box"></div>
+    <div class="img-box bj1 position-abs-100">
 
-    <div
-      class="backcolor"
-      style="
+      <el-image fit="cover"
+                style="width:100%"
+                src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-1.jpg"></el-image>
+    
+    </div>
+    <div class="img-box">
+    </div>
+
+    <div class="backcolor"
+         style="
         position: fixed;
         height: 100vh;
         width: 100%;
         top: 0;
         left: 0;
         z-index: -2;
-      "
-    ></div>
+      "></div>
     <!-- 商品列表 -->
     <div class="goods">
-      <div class="goods-box" v-for="(item, index) in goods" :key="index">
+      <div class="goods-box"
+           v-for="(item, index) in goods"
+           :key="index">
         <div class="img">
-          <el-image
-            style="height: 100%"
-            :src="require('@/' + item.src)"
-            @click="toGoods(index)"
-            fit="contain"
-          ></el-image>
+          <el-image style="height: 100%"
+                    :src="require('@/' + item.src)"
+                    @click="toGoods(index)"
+                    fit="contain"></el-image>
         </div>
-        <div class="title" @click="toGoods(index)">{{ item.title }}</div>
+        <div class="title"
+             @click="toGoods(index)">{{ item.title }}</div>
         <!-- <div class="message bj2">{{item.message}}</div> -->
-        <div class="button" @click="toGoods(index)">查看详情</div>
+        <div class="button"
+             @click="toGoods(index)">查看详情</div>
       </div>
     </div>
 
     <!-- 分页 -->
     <div class="page">
-      <el-pagination
-        background
-        layout="prev, pager, next"
-        :page-size="page_size"
-        @current-change="current_change"
-        :total="total"
-      >
+      <el-pagination background
+                     layout="prev, pager, next"
+                     :page-size="page_size"
+                     @current-change="current_change"
+                     :total="total">
       </el-pagination>
     </div>
   </div>
@@ -50,7 +55,7 @@
 <script>
 import goods from "@/json/goods.json";
 export default {
-  data() {
+  data () {
     return {
       goods: [],
       total: 1,
@@ -93,6 +98,7 @@ export default {
   height: 300px;
   box-shadow: inset 1px 5px 10px #bfbfbf73;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 .backcolor {
   background-color: rgb(243, 243, 243);

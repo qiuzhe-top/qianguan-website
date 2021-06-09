@@ -36,7 +36,6 @@
           </el-submenu>
         </el-submenu> -->
 
-
         <el-menu-item index="4"
                       @click="toPage('ApplicationCase')">
           最新资讯
@@ -45,8 +44,8 @@
                       @click="toPage('About')">
           关于我们
         </el-menu-item>
-        <el-menu-item index="6"
-                      @click="toPage('About')">联系我们</el-menu-item>
+        <!-- <el-menu-item index="6"
+                      @click="toPage('About')">联系我们</el-menu-item> -->
       </el-menu>
 
       <!-- <div class="tal">010-88351020</div> -->
@@ -81,7 +80,11 @@ export default {
 .el-menu.el-menu--horizontal {
   border: none;
 }
-
+.el-menu-demo {
+}
+.el-menu--horizontal > .el-menu-item {
+  margin: 0 30px;
+}
 .nav {
   display: flex;
   align-items: center;

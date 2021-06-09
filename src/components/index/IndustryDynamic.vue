@@ -24,7 +24,10 @@
         <!-- 标题样式 -->
         <div class="title-box">
           <div class="square"></div>
-          <div class="more">更多</div>
+          <div class="more">
+            <router-link :to="{ name: 'ApplicationCase'}">更多</router-link>
+
+          </div>
         </div>
         <!-- 新闻列表 -->
         <h3>蓝山：开展桥梁检测</h3>
@@ -69,6 +72,11 @@ export default {
   data () {
     return {
       src: require('@/assets/ee3.jpg')
+    }
+  },
+  methods:{
+    toPage(id){
+      router.push({ path: 'NewsDetails', query: { id: id }})
     }
   }
 }

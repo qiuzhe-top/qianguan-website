@@ -3,6 +3,10 @@
     <!-- 应用案例 -->
     <!-- 背景大图 -->
     <div class="img-box bj1 position-abs-100">
+      <el-image fit="cover"
+                style="width:100%"
+                src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-3.jpg"></el-image>
+
     </div>
     <div class="img-box">
     </div>
@@ -72,8 +76,9 @@ export default {
       e -= 1
       this.$data.news = news.slice(e * page_size, e * page_size + page_size)
     },
+    
     toGoods: function (index) {
-      this.$router.push({ name: 'NewsDetails', query: { i: index  } })
+      this.$router.push({ name: 'NewsDetails', query: { i: index } })
     }
 
   }
@@ -86,6 +91,7 @@ export default {
   height: 300px;
   box-shadow: inset 1px 5px 10px #e6e6e6;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 .ArticleList {
   .item {
@@ -98,7 +104,7 @@ export default {
     padding: 20px 0;
     .img {
       width: @w;
-    background-color: #f1f0f0;
+      background-color: #f1f0f0;
       height: @w / 3 * 2;
       cursor: pointer;
     }
