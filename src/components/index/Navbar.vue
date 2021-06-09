@@ -8,6 +8,7 @@
         <el-carousel-item v-for="item in carousel_img_list"
                           :key="item">
           <el-image class="logo"
+                    fit="cover"
                     :src="item"></el-image>
         </el-carousel-item>
 
@@ -48,5 +49,8 @@ export default {
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
+}
+.logo {
+  height: 100%;
 }
 </style>

@@ -19,10 +19,21 @@ export default {
   },
   created: function () {
     var index = this.$route.query.i
-    if(index){
+    if (index) {
       this.$data.news = news[this.$route.query.i]
     }
-    
+
+    var id = this.$route.query.id
+    if (id) {
+
+      news.forEach((element) => {
+        var id_d = element["id"];
+        if (id + "" == id_d + "") {
+          this.$data.news = element;
+        }
+      });
+
+    }
 
   },
   methods: {
