@@ -23,20 +23,15 @@
       "
     ></div>
 
-    <!-- 商品分类 -->
-    <div class="classify flex">
 
-      <div class="title">类型:</div>
-
-      <div class="list flex">
-        <div class="type-title" v-bind:class="{ active: index == nav1_index }" v-for="(item,index) in nav_list" :key="index" @click="switch_nav(index)">{{item.title}}</div>
-      </div>
-
-    </div>
     <!-- 商品列表 -->
     <div class="goods p-r">
       <div class="nav p-a">
-        <div class="type-title" v-bind:class="{ active: index == nav2_index }"  v-for="(item,index) in nav_list[nav1_index].child" :key="index" @click="switch_nav2(index)">{{item.title}}</div>
+        <el-tree
+          :data="nav_list"
+          :props="defaultProps"
+          @node-click="handleNodeClick"
+        ></el-tree>
       </div>
 
       <div class="goods-box" v-for="(item, index) in goods" :key="index">
@@ -71,17 +66,15 @@
 
 <script>
 import goods from "@/json/goods.json";
-import nav_list from "@/json/goods/nav.json";
+import nav_data from "@/json/goods/nav.json";
 export default {
   data() {
     return {
       goods: [],
       total: 1,
       page_size: 12,
-      nav1_index:0,
-      nav2_index:0,
-      
-      nav_list:nav_list
+      goods_type_id: 0,
+      nav_list: nav_data,
     };
   },
   created: function () {
@@ -93,42 +86,28 @@ export default {
     var id = this.$route.query.id;
   },
   methods: {
-    get_goods(){
-        console.log(11)
-
-      const f = this.nav_list[this.nav1_index].id
-      const c = f.child[this.nav2_index].id
-      goods.forEach(e => {
-        console.log(e.type[0])
-        // if(e.type[0]==f && e.type[1]==f){
-        // }
+    get_goods() {
+      goods.forEach((e) => {
+        console.log(e.type == this.goods_type_id);
+        if(e.type == this.goods_type_id){
+          console.log(e)
+        }
       });
-
     },
     current_change: function (e) {
       var page_size = this.$data.page_size;
-      // if(e==1){
-      //   e = 0
-      // }
       e -= 1;
-      // 0 1  0 2
-      // 2 3  2 4
-      // 4 5  4 6
       this.$data.goods = goods.slice(e * page_size, e * page_size + page_size);
     },
     toGoods: function (index) {
       this.$router.push({ name: "ProductIntroduction", query: { i: index } });
     },
-    switch_nav: function(index){
-      this.nav1_index = index
-      this.nav2_index = 0
+    // 点击导航
+    handleNodeClick: function (e1) {
+      this.goods_type_id = e1.id
       this.get_goods()
     },
-    switch_nav2: function(index){
-      this.nav2_index = index
-      this.get_goods()
-    }
-  }
+  },
 };
 </script>
 
@@ -212,16 +191,14 @@ export default {
       margin-right: 10px;
       margin-bottom: 4px;
       padding: 0 50px;
-
     }
   }
 }
 
 .goods {
   font-size: 14px;
-  @w: 90px;
+  @w: 160px;
   .nav {
-
     padding: 20px 0;
     width: @w;
     background: #ffffff;
@@ -234,18 +211,32 @@ export default {
     div {
       margin-bottom: 10px;
     }
-
   }
 }
-.type-title{
+.type-title {
   text-align: center;
 }
-.type-title:hover{
-    color: #ffffff;
-    background-color: yellowgreen;
+.type-title:hover {
+  color: #ffffff;
+  background-color: yellowgreen;
 }
-.active{
-    color: #ffffff;
-    background-color: yellowgreen;
+.active {
+  color: #ffffff;
+  background-color: yellowgreen;
 }
+// 类型导航
+
+
+
+</style>
+
+<style >
+  .el-tree-node__content {
+    height: auto;
+  }
+
+  .el-tree-node__label {
+    /* font-size: 18px; */
+    padding: 20px 0;
+  }
 </style>

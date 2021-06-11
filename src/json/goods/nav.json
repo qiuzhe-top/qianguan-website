@@ -1,28 +1,28 @@
 [
     {
-        "title":"一级分类1",
+        "label":"一级分类1",
         "id":1,
-        "child":[
+        "children":[
             {
-                "title":"1级分类1",
+                "label":"1级分类1",
                 "id":2
             },
             {
-                "title":"1级分类2",
+                "label":"1级分类2",
                 "id":2
             }
         ]
     },
     {
-        "title":"一级分类2",
+        "label":"一级分类2",
         "id":2,
-        "child":[
+        "children":[
             {
-                "title":"二级分类1",
+                "label":"二级分类1",
                 "id":2
             },
             {
-                "title":"二级分类2",
+                "label":"二级分类2",
                 "id":2
             }
         ]
