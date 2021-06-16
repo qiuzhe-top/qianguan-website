@@ -1,7 +1,8 @@
 [
   {
     "id": "16411113",
-    "type":[1,2],
+    "type":6,
+    "price":94,
     "src": "assets/i-1-2.png",
     "title": "不锈钢垃圾桶",
     "message": "环保分类商场用干湿物业加厚户外大码双禁烟定制 分类垃圾桶款式",
@@ -16,6 +17,7 @@
   {
     "id": 1,
     "type":1,
+    "price":96,
     "src": "assets/i-1-2.png",
     "title": "不锈钢垃圾桶",
     "message": "环保分类商场用干湿物业加厚户外大码双禁烟定制 分类垃圾桶款式",
@@ -43,7 +45,7 @@
   },
   {
     "id": "16411113",
-    "type":[1,2],
+    "type":1,
     "src": "assets/i-1-2.png",
     "title": "标题4",
     "message": "描述",
@@ -59,6 +61,36 @@
     "id": "164113",
     "src": "assets/i-1-2.png",
     "title": "标题3",
+    "type":1,
+
+    "message": "描述",
+    "img_list": [
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png"
+    ],
+    "content": ""
+  },
+  {
+    "id": "164113",
+    "src": "assets/i-1-2.png",
+    "title": "标题4",
+    "type":1,
+    "message": "描述",
+    "img_list": [
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png"
+    ],
+    "content": ""
+  },
+  {
+    "id": "164113",
+    "src": "assets/i-1-2.png",
+    "title": "标题3",
+    "type":1,
     "message": "描述",
     "img_list": [
       "assets/i-1-2.png",
@@ -73,6 +105,7 @@
     "src": "assets/i-1-2.png",
     "title": "标题4",
     "message": "描述",
+    "type":1,
     "img_list": [
       "assets/i-1-2.png",
       "assets/i-1-2.png",
@@ -85,6 +118,21 @@
     "id": "164113",
     "src": "assets/i-1-2.png",
     "title": "标题3",
+    "message": "描述",
+    "type":1,
+    "img_list": [
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png"
+    ],
+    "content": ""
+  },
+  {
+    "id": "164113",
+    "src": "assets/i-1-2.png",
+    "title": "标题4",
+    "type":1,
     "message": "描述",
     "img_list": [
       "assets/i-1-2.png",
@@ -98,19 +146,7 @@
     "id": "164113",
     "src": "assets/i-1-2.png",
     "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
+    "type":1,
     "message": "描述",
     "img_list": [
       "assets/i-1-2.png",
@@ -124,6 +160,49 @@
     "id": "164113",
     "src": "assets/i-1-2.png",
     "title": "标题4",
+    "type":1,
+    "message": "描述",
+    "img_list": [
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png"
+    ],
+    "content": ""
+  },
+  {
+    "id": "164113",
+    "src": "assets/i-1-2.png",
+    "title": "标题4",
+    "type":1,
+    "message": "描述",
+    "img_list": [
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png"
+    ],
+    "content": ""
+  },
+  {
+    "id": "164113",
+    "src": "assets/i-1-2.png",
+    "title": "标题4",
+    "type":1,
+    "message": "描述",
+    "img_list": [
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png",
+      "assets/i-1-2.png"
+    ],
+    "content": ""
+  },
+  {
+    "id": "164113",
+    "src": "assets/i-1-2.png",
+    "title": "标题4",
+    "type":1,
     "message": "描述",
     "img_list": [
       "assets/i-1-2.png",
@@ -137,6 +216,7 @@
     "id": "164113",
     "src": "assets/i-1-2.png",
     "title": "标题3",
+    "type":1,
     "message": "描述",
     "img_list": [
       "assets/i-1-2.png",

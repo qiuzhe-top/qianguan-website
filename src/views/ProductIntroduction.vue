@@ -6,15 +6,19 @@
       <div class="goods ">
 
         <div class="img ">
+          <!-- <pic-zoom :url="require('@/'+goods.src)"
+                    :scale="3"></pic-zoom> -->
           <el-image :src="require('@/'+goods.src)"
                     style="height:100%"
+                    :preview-src-list="get_img_src(goods.img_list)"
                     fit="contain"></el-image>
         </div>
 
         <div class="list ">
           <div v-for="(src,index) in goods.img_list"
                :key="index"
-               @click="switch_img(src)">
+               :class="{ 'active' : index == goods_img_list_index }"
+               @click="switch_img(src,index)">
             <el-image :src="require('@/'+src)"
                       style="height:100%"
                       fit="contain"></el-image>
@@ -26,7 +30,9 @@
       <div class="title-box ">
         <div class="title ">{{goods.title}}</div>
         <div class="message ">{{goods.message}}</div>
+        <div class="price ">￥{{goods.price}}</div>
       </div>
+
     </div>
 
     <!-- 产品参数 -->
@@ -54,13 +60,22 @@
 
 <script>
 import goods from "@/json/goods.json";
-
+// import PicZoom from 'vue-piczoom'
 export default {
   data () {
     return {
       activeName: 'first',
-      goods: {}
+      srcList: [
+        'https://fuss10.elemecdn.com/8/27/f01c15bb73e1ef3793e64e6b7bbccjpeg.jpeg',
+        'https://fuss10.elemecdn.com/1/8e/aeffeb4de74e2fde4bd74fc7b4486jpeg.jpeg'
+      ],
+      goods: {},
+      // 选中的预览图
+      goods_img_list_index: 0,
     }
+  },
+  components: {
+    PicZoom
   },
   created: function () {
     this.$data.goods = goods[this.$route.query.i]
@@ -81,8 +96,17 @@ export default {
 
   },
   methods: {
-    switch_img (src) {
+    switch_img (src, index) {
+      this.$data.goods_img_list_index = index
       this.$data.goods.src = src
+    },
+    // 返回大图预览的方法
+    get_img_src (list) {
+      var l = []
+      list.forEach(element => {
+        l.push(require('@/' + element))
+      });
+      return l
     }
   }
 }
@@ -110,7 +134,12 @@ export default {
   .message {
     // width: 100px;
     margin-top: 10px;
-    height: 40px;
+    min-height: 100px;
+  }
+  .price {
+    color: rgb(197, 26, 26);
+    font-size: 38px;
+    font-weight: 600;
   }
 }
 
@@ -129,6 +158,9 @@ export default {
     height: 50px;
     display: flex;
     justify-content: space-around;
+    .active {
+      border: rgba(37, 207, 22, 0.993) 2px solid;
+    }
     div {
       width: 80px;
       height: 40px;

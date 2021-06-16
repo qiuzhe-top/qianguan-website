@@ -2,64 +2,65 @@
   <div class="product">
     <!-- 背景大图 -->
     <div class="img-box bj1 position-abs-100">
-      <el-image
-        fit="cover"
-        style="width: 100%"
-        src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-1.jpg"
-      ></el-image>
+      <el-image fit="cover"
+                style="width: 100%"
+                src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-1.jpg"></el-image>
     </div>
 
     <div class="img-box"></div>
 
-    <div
-      class="backcolor"
-      style="
+    <div class="backcolor"
+         style="
         position: fixed;
         height: 100vh;
         width: 100%;
         top: 0;
         left: 0;
         z-index: -2;
-      "
-    ></div>
+      "></div>
 
-
-    <!-- 商品列表 -->
+    <!-- 商品导航 -->
     <div class="goods p-r">
       <div class="nav p-a">
-        <el-tree
-          :data="nav_list"
-          :props="defaultProps"
-          @node-click="handleNodeClick"
-        ></el-tree>
+        <el-tree :data="nav_list"
+                 :props="defaultProps"
+                 :default-expand-all="true"
+                 :highlight-current="true"
+                 :default-expanded-keys="[0,0]"
+                 @node-click="handleNodeClick"></el-tree>
       </div>
 
-      <div class="goods-box" v-for="(item, index) in goods" :key="index">
+      <!-- 商品列表 -->
+      <div class="goods-box"
+           v-for="(item, index) in goods"
+           :key="index">
         <div class="img">
-          <el-image
-            style="height: 100%"
-            :src="require('@/' + item.src)"
-            @click="toGoods(index)"
-            fit="contain"
-          ></el-image>
+          <el-image style="height: 100%"
+                    :src="require('@/' + item.src)"
+                    @click="toGoods(index)"
+                    fit="contain"></el-image>
         </div>
-        <div class="title" @click="toGoods(index)">{{ item.title }}</div>
-        <!-- <div class="message bj2">{{item.message}}</div> -->
-        <div class="button" @click="toGoods(index)">查看详情</div>
+        <div class="title"
+             @click="toGoods(index)">{{ item.title }}</div>
+        <div class="message  flex jus-sb">
+          <span>{{item.message}}</span>
+          <span>￥{{item.price}}</span>
+        </div>
+        <div class="button"
+             @click="toGoods(index)">查看详情</div>
       </div>
     </div>
 
     <!-- 分页 -->
     <div class="page">
-      <el-pagination
-        background
-        layout="prev, pager, next"
-        :page-size="page_size"
-        @current-change="current_change"
-        :total="total"
-      >
+      <el-pagination background
+                     layout="prev, pager, next"
+                     :page-size="page_size"
+                     @current-change="current_change"
+                     :total="total">
       </el-pagination>
     </div>
+
   </div>
 </template>
 
@@ -68,13 +69,20 @@
 import goods from "@/json/goods.json";
 import nav_data from "@/json/goods/nav.json";
 export default {
-  data() {
+  data () {
     return {
+      // 经过分页后 展示的商品列表
       goods: [],
+      // 经过分类后得到的商品列表
+      goods_type: [],
       total: 1,
       page_size: 12,
       goods_type_id: 0,
       nav_list: nav_data,
+      defaultProps: {
+        children: 'children',
+        label: 'label'
+      }
     };
   },
   created: function () {
@@ -86,18 +94,21 @@ export default {
     var id = this.$route.query.id;
   },
   methods: {
-    get_goods() {
+    get_goods () {
+      this.goods_type = []
       goods.forEach((e) => {
-        console.log(e.type == this.goods_type_id);
-        if(e.type == this.goods_type_id){
-          console.log(e)
+        if (e.type == this.goods_type_id) {
+          this.goods_type.push(e)
         }
       });
+      this.current_change(1)
     },
     current_change: function (e) {
+      this.$data.total = this.goods_type.length
       var page_size = this.$data.page_size;
       e -= 1;
-      this.$data.goods = goods.slice(e * page_size, e * page_size + page_size);
+      // 把分过类的商品进行分页
+      this.$data.goods = this.goods_type.slice(e * page_size, e * page_size + page_size);
     },
     toGoods: function (index) {
       this.$router.push({ name: "ProductIntroduction", query: { i: index } });
@@ -123,16 +134,17 @@ export default {
 }
 .goods {
   width: 100%;
+  min-height: 470px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .goods-box {
   width: 350px;
-  height: 370px;
+  min-height: 370px;
   margin-bottom: 50px;
   text-align: left;
-  padding-left: 10px;
+  padding: 10px;
   background-color: rgb(250, 250, 250);
   .img {
     height: 350px / 3 * 2;
@@ -149,7 +161,7 @@ export default {
     width: 130px;
     height: 40px;
     line-height: 40px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 5px;
     text-align: center;
     background-color: rgb(243, 243, 243);
@@ -159,6 +171,21 @@ export default {
     background-color: rgb(98, 179, 33);
     color: white;
     cursor: pointer;
+  }
+  .message {
+    margin-top: 10px;
+    height: 4em;
+    span {
+    }
+    span:nth-child(1) {
+      display: block;
+      width: 70%;
+    }
+    span:nth-child(2) {
+      color: rgb(212, 9, 9);
+      font-size: 35px;
+      font-weight: 600;
+    }
   }
 }
 
@@ -225,18 +252,15 @@ export default {
   background-color: yellowgreen;
 }
 // 类型导航
-
-
-
 </style>
 
 <style >
-  .el-tree-node__content {
-    height: auto;
-  }
+.el-tree-node__content {
+  height: auto;
+}
 
-  .el-tree-node__label {
-    /* font-size: 18px; */
-    padding: 20px 0;
-  }
+.el-tree-node__label {
+  /* font-size: 18px; */
+  padding: 20px 0;
+}
 </style>
