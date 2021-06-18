@@ -41,9 +41,23 @@
       <el-tabs v-model="activeName">
         <el-tab-pane label="产品简介"
                      name="first">
-          <div class="tab-pane">产品简介</div>
+          <div class="tab-pane">
+            <div class="parameter flex wrap jus-sb">
+              <div class="ps"
+                   v-for="(item,index) in goods.parameter"
+                   :key="index">
+                {{item}}
+              </div>
+            </div>
+            <el-image v-for="(item,index) in goods.goods_img_list1"
+                      :key="index"
+                      :src="require('@/'+item)">
+
+            </el-image>
+          </div>
         </el-tab-pane>
-        <el-tab-pane label="技术参数"
+        <el-tab-pane label="
+                      技术参数"
                      name="second">
           <div class="tab-pane">技术参数</div>
         </el-tab-pane>
@@ -60,7 +74,6 @@
 
 <script>
 import goods from "@/json/goods.json";
-// import PicZoom from 'vue-piczoom'
 export default {
   data () {
     return {
@@ -73,9 +86,6 @@ export default {
       // 选中的预览图
       goods_img_list_index: 0,
     }
-  },
-  components: {
-    PicZoom
   },
   created: function () {
     this.$data.goods = goods[this.$route.query.i]
@@ -117,6 +127,8 @@ export default {
 .header {
   display: flex;
   justify-content: start;
+  border-bottom: solid 2px rgb(238, 238, 238);
+  margin-bottom: 60px;
 }
 
 .title-box {
@@ -145,9 +157,10 @@ export default {
 
 .goods {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: @goods_width;
   height: @goods_width / 3 * 2.5;
+  border: rgb(238, 238, 238) solid 2px;
   .img {
     width: @goods_width * 0.7;
     height: @goods_width * 0.6;
@@ -178,6 +191,15 @@ export default {
     min-height: 800px;
   }
   margin-bottom: 80px;
+  .parameter {
+    padding: 20px 0;
+    font-size: 14px;
+    .ps {
+      width: 25%;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+  }
 }
 </style>
 

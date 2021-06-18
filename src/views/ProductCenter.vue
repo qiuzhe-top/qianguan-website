@@ -139,6 +139,9 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.goods-box:hover {
+  box-shadow: 0px 0px 15px rgba(221, 221, 221, 0.664);
+}
 .goods-box {
   width: 350px;
   min-height: 370px;
@@ -146,6 +149,8 @@ export default {
   text-align: left;
   padding: 10px;
   background-color: rgb(250, 250, 250);
+  box-shadow: 0px 0px 8px rgba(221, 221, 221, 0.664);
+
   .img {
     height: 350px / 3 * 2;
     border-bottom: 1px solid rgb(228, 228, 228);
@@ -225,6 +230,7 @@ export default {
 .goods {
   font-size: 14px;
   @w: 160px;
+
   .nav {
     padding: 20px 0;
     width: @w;
@@ -234,6 +240,7 @@ export default {
     white-space: nowrap;
     zoom: 1;
     margin-bottom: 4px;
+    box-shadow: 0px 0px 8px rgba(221, 221, 221, 0.664);
 
     div {
       margin-bottom: 10px;

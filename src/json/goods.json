@@ -1,19 +1,44 @@
 [
   {
-    "id": "16411113",
+    "id": "1641111553",
     "type":6,
     "price":94,
     "src": "assets/i-1-2.png",
     "title": "不锈钢垃圾桶",
     "message": "环保分类商场用干湿物业加厚户外大码双禁烟定制 分类垃圾桶款式",
+    "content": "",
+
     "img_list": [
       "assets/i-1-1.png",
       "assets/i-1-2.png",
       "assets/i-1-2.png",
       "assets/i-1-2.png"
     ],
-    "content": ""
+
+    "goods_img_list1":[
+      "assets/cp1.jpg",
+      "assets/cp2.jpg",
+      "assets/cp3.jpg"
+    ],
+    "parameter":[
+      "商品名称：雅高YG-Q078",
+      "商品编号：4758042",
+      "商品名称：雅高YG-Q078",
+      "商品编号：4758042",
+      "商品名称：雅高YG-Q078",
+      "商品编号：4758042",
+      "商品名称：雅高YG-Q078",
+      "商品编号：4758042",
+      "商品毛重：2.15kg"
+    ],
+    "goods_img_list2":[
+      "assets/cp1.jpg",
+      "assets/cp2.jpg",
+      "assets/cp3.jpg"
+    ]
   },
+      
+  
   {
     "id": 1,
     "type":1,
