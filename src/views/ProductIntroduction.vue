@@ -90,7 +90,7 @@ export default {
     }
   },
   created: function () {
-    this.$data.goods = goods[this.$route.query.i]
+    // this.$data.goods = goods[this.$route.query.i]
 
 
     var id = this.$route.query.id

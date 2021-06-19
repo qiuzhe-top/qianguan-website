@@ -9,7 +9,7 @@
                           :key="item">
           <el-image class="logo"
                     fit="cover"
-                    :src="item"></el-image>
+                    :src="require('@/'+item)"></el-image>
         </el-carousel-item>
 
       </el-carousel>
@@ -25,9 +25,7 @@ export default {
       carousel_height: "550px",
       carousel_height_str: "height: 550px",
       carousel_img_list: [
-        'https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-1.jpg',
-        'https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-2.jpg',
-        'https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-3.jpg',
+        'assets/bander1.jpg',
       ]
     };
   },

@@ -878,5 +878,136 @@
 
     ]
   }
-    
+
+  ,{
+    "id": 28,
+    "type":101,
+    "title": "医用口罩",
+    "message": "鑫协和一次性医用口罩 防病菌飞沫三层防护 环氧乙烷灭菌",
+    "price":"0.24",
+    "src": "assets/goods_image/28A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/28A-1.jpg",
+      "assets/goods_image/28A-2.jpg",
+      "assets/goods_image/28A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/28B-1.jpg",
+      "assets/goods_image/28B-2.jpg",
+      "assets/goods_image/28B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：鑫协和",
+      "型号：A14027",
+      "产地：河南省 新乡市",
+
+      "材质：无纺布熔喷布",
+      "包装规格：20只/包 4000只/箱",
+      "类型：医用口罩 挂耳式  三层防护"
+
+    ]
+  }
+
+  ,{
+    "id": 29,
+    "type":101,
+    "title": "办公椅",
+    "message": "办公椅 旋转升降座椅简约弓形靠背电脑椅子",
+    "price":"169.00",
+    "src": "assets/goods_image/29A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/29A-1.jpg",
+      "assets/goods_image/29A-2.jpg",
+      "assets/goods_image/29A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/29B-1.jpg",
+      "assets/goods_image/29B-2.jpg",
+      "assets/goods_image/29B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：其他家",
+      "型号：12054",
+      "产地：广东省 佛山市",
+
+      "是否组装：否",
+      "是否需要安装: 需要",
+      "是否支持人体工程学：是",
+      "是否有扶手：是",
+      "是否可旋转：是",
+      "是否可升降：是",
+      "承重量 (kg)：500-800kg",
+      "产品面料：海绵",
+      "产品尺寸（长*宽*高）(mm)：多种尺寸mm",
+      "产品材质：网布",
+      "包装尺寸（长*宽*高） (cm)：多种尺寸cm"
+
+    ]
+  }
+  ,{
+    "id": 30,
+    "type":101,
+    "price":0.40,
+    "src": "assets/goods_image/8A-1.jpg",
+    "title": "淀粉基垃圾袋",
+    "message": "10L淀粉基垃圾袋 可降解平口点断式垃圾袋 绿灰红蓝",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/8A-1.jpg",
+      "assets/goods_image/8A-2.jpg",
+      "assets/goods_image/8A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/8B-1.jpg",
+      "assets/goods_image/8B-2.jpg",
+      "assets/goods_image/8B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：10132",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "价格：0.4元/个，一卷有30个",
+      "容量：10L（45*50cm）可以根据客户要求定制"
+    ]
+  }
+ 
+  ,{
+    "id": 31,
+    "type":101,
+    "title": "垃圾分类柜",
+    "message": "垃圾分类柜镀锌板带棚五分类柜垃圾分类箱 颜色可定制 定时定点",
+    "price":"12000.00",
+    "src": "assets/goods_image/31A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/31A-1.jpg",
+      "assets/goods_image/31A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/31B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：镀锌板带棚五分类",
+      "产地：浙江省 杭州市 江干区",
+      "货号: 货号",
+      "功能：机械定时开关，照明功能  自带宣传栏  各投放口颜色、标识可自由组合，方便使用  投放口带锁，方便定时投放",
+      "服务：柜体免费上门安装；提供宣传栏免费设计、更换服务，颜色可定制(下单可备注颜色)",
+      "尺寸：长362.5*宽105*高210CM"
+
+    ]
+  }
+  
+
 ]

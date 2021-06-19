@@ -38,17 +38,20 @@
         <div class="img">
           <el-image style="height: 100%"
                     :src="require('@/' + item.src)"
-                    @click="toGoods(index)"
+                    @click="toGoods(item.id)"
                     fit="contain"></el-image>
         </div>
+
         <div class="title"
-             @click="toGoods(index)">{{ item.title }}</div>
+             @click="toGoods(item.id)">{{ item.title }}</div>
+
         <div class="message  flex jus-sb">
           <span>{{item.message}}</span>
           <span>￥{{item.price}}</span>
         </div>
+
         <div class="button"
-             @click="toGoods(index)">查看详情</div>
+             @click="toGoods(item.id)">查看详情</div>
       </div>
     </div>
 
@@ -113,8 +116,8 @@ export default {
       this.$data.goods = this.goods_type.slice(e * page_size, e * page_size + page_size-1);
       console.log(e,this.goods_type,e * page_size, e * page_size + page_size-1)
     },
-    toGoods: function (index) {
-      this.$router.push({ name: "ProductIntroduction", query: { i: index } });
+    toGoods: function (id) {
+      this.$router.push({ name: "ProductIntroduction", query: { id: id } });
     },
     // 点击导航
     handleNodeClick: function (e1) {
