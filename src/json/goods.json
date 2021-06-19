@@ -1,891 +1,882 @@
 [
   {
-    "id": "1641111553",
-    "type":6,
-    "price":94,
-    "src": "assets/i-1-2.png",
-    "title": "不锈钢垃圾桶",
-    "message": "环保分类商场用干湿物业加厚户外大码双禁烟定制 分类垃圾桶款式",
+    "id": 1,
+    "type":1,
+    "price":10.00,
+    "src": "assets/goods_image/1A-1.jpg",
+    "title": "10L入户塑料垃圾桶",
+    "message": "10L入户垃圾桶塑料中号家用收纳桶办公室厨房杂物桶",
     "content": "",
 
     "img_list": [
-      "assets/i-1-1.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
+      "assets/goods_image/1A-1.jpg",
+      "assets/goods_image/1A-2.jpg",
+      "assets/goods_image/1A-3.jpg",
+      "assets/goods_image/1A-5.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/cp1.jpg",
-      "assets/cp2.jpg",
-      "assets/cp3.jpg"
+      "assets/goods_image/1B-1.jpg",
+      "assets/goods_image/1B-2.jpg",
+      "assets/goods_image/1B-3.jpg",
+      "assets/goods_image/1B-4.jpg"
     ],
+
     "parameter":[
-      "商品名称：雅高YG-Q078",
-      "商品编号：4758042",
-      "商品名称：雅高YG-Q078",
-      "商品编号：4758042",
-      "商品名称：雅高YG-Q078",
-      "商品编号：4758042",
-      "商品名称：雅高YG-Q078",
-      "商品编号：4758042",
-      "商品毛重：2.15kg"
+      "品牌：前冠",
+      "型号：10L",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "外部材质：塑料",
+      "适用场景：工业使用、家庭使用",
+      "开合方式：按压式",
+      "货号：10008",
+      "产品容量：10L"
+    ]
+  },
+  {
+    "id": 2,
+    "type":1,
+    "price":45.00,
+    "src": "assets/goods_image/2A-1.jpg",
+    "title": "30L翻盖分类垃圾桶",
+    "message": "翻盖30L标准环保分类垃圾桶",
+    "content": "",
+
+    "img_list": [
+      "assets/goods_image/2A-1.jpg",
+      "assets/goods_image/2A-2.jpg",
+      "assets/goods_image/2A-3.jpg",
+      "assets/goods_image/2A-4.jpg"
     ],
-    "goods_img_list2":[
-      "assets/cp1.jpg",
-      "assets/cp2.jpg",
-      "assets/cp3.jpg"
+
+    "goods_img_list1":[
+      "assets/goods_image/2B-1.jpg",
+      "assets/goods_image/2B-2.jpg",
+      "assets/goods_image/2B-3.jpg",
+      "assets/goods_image/2B-4.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：塑料30L",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "计量单位：个",
+      "货号：A0123"
+    ]
+  },
+  {
+    "id": 3,
+    "type":1,
+    "price":45.00,
+    "src": "assets/goods_image/3A-1.jpg",
+    "title": "15L厨房垃圾桶",
+    "message": "15L垃圾桶室内厨房手提标准易腐分类垃圾桶",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/3A-1.jpg",
+      "assets/goods_image/3A-2.jpg",
+      "assets/goods_image/3A-3.jpg",
+      "assets/goods_image/3A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/3B-1.jpg",
+      "assets/goods_image/3B-2.jpg",
+      "assets/goods_image/3B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：10156",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "计量单位：个",
+      "货号：10156"
     ]
   },
       
-  
   {
-    "id": 1,
+    "id": 4,
     "type":1,
-    "price":96,
-    "src": "assets/i-1-2.png",
-    "title": "不锈钢垃圾桶",
-    "message": "环保分类商场用干湿物业加厚户外大码双禁烟定制 分类垃圾桶款式",
+    "price":220.00,
+    "src": "assets/goods_image/4A-1.jpg",
+    "title": "240L垃圾桶",
+    "message": "240L垃圾桶 翻盖带轮子分类标识垃圾收集桶",
+    "content": "",
     "img_list": [
-      "assets/i-1-1.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
+      "assets/goods_image/4A-1.jpg",
+      "assets/goods_image/4A-2.jpg",
+      "assets/goods_image/4A-3.jpg",
+      "assets/goods_image/4A-4.jpg"
     ],
-    "content": ""
-  },
-  {
-    "id": "16411113",
-    "type":2,
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "16411113",
-    "type":1,
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "type":1,
 
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
+    "goods_img_list1":[
+      "assets/goods_image/4B-1.jpg",
+      "assets/goods_image/4B-2.jpg",
+      "assets/goods_image/4B-3.jpg"
     ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "type":1,
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "type":1,
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "type":1,
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题3",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题4",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题5",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
-  },
-  {
-    "id": "164113",
-    "src": "assets/i-1-2.png",
-    "title": "标题5",
-    "message": "描述",
-    "img_list": [
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png",
-      "assets/i-1-2.png"
-    ],
-    "content": ""
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：10156",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "计量单位：个",
+      "货号：10156"
+    ]
   }
+      
+  ,{
+    "id": 5,
+    "type":1,
+    "price":70.00,
+    "src": "assets/goods_image/5A-1.jpg",
+    "title": "15L+15L/30L双色塑料脚踩带盖垃圾桶",
+    "message": "前冠 15L+15L/30L双色塑料脚踩带盖垃圾桶组合桶干湿分离垃圾桶",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/5A-1.jpg",
+      "assets/goods_image/5A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/5B-1.jpg",
+      "assets/goods_image/5B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：15L+15L",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "计量单位：个",
+      "货号：10140",
+      "产品结构：两独立式垃圾桶，有盖垃圾桶架",
+      "容量：15L*2",
+      "尺寸：385*350*450mm",
+      "颜色：绿灰、蓝灰、红蓝（可定制）",
+      "使用场地：小区，写字楼，学校，室内外，等"
+    ]
+  }
+    
+  ,{
+    "id": 6,
+    "type":1,
+    "price":240.00,
+    "src": "assets/goods_image/6A-1.jpg",
+    "title": "翻盖轮子挂车桶",
+    "message": "240L垃圾桶 新料翻盖轮子挂车环保室外桶",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/6A-1.jpg",
+      "assets/goods_image/6A-2.jpg",
+      "assets/goods_image/6A-3.jpg",
+      "assets/goods_image/6A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/6B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：15L+15L",
+      "计量单位：个",
+
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "货号：10140",
+      "外部材质：塑料",
+      "适用场景：家庭使用、工业使用",
+      "开合方式：翻盖",
+      "货号：10001",
+      "产品容量：240L",
+      "产品类型：翻盖",
+      "计价单位：元",
+      "产品形状：长筒形"
+    ]
+  }
+
+  ,{
+    "id": 7,
+    "type":1,
+    "price":165.00,
+    "src": "assets/goods_image/7A-1.jpg",
+    "title": "黑色无靠背垃圾架可内置垃圾桶",
+    "message": "黑色无靠背垃圾架可内置垃圾桶",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/7A-1.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/7B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：10158",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "计量单位：个",
+      "货号：10158"
+    ]
+  }
+  ,{
+    "id": 8,
+    "type":35,
+    "price":0.40,
+    "src": "assets/goods_image/8A-1.jpg",
+    "title": "淀粉基垃圾袋",
+    "message": "10L淀粉基垃圾袋 可降解平口点断式垃圾袋 绿灰红蓝",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/8A-1.jpg",
+      "assets/goods_image/8A-2.jpg",
+      "assets/goods_image/8A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/8B-1.jpg",
+      "assets/goods_image/8B-2.jpg",
+      "assets/goods_image/8B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：10132",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "价格：0.4元/个，一卷有30个",
+      "容量：10L（45*50cm）可以根据客户要求定制"
+    ]
+  }
+
+  ,{
+    "id": 9,
+    "type":2,
+    "price":"85.00",
+    "src": "assets/goods_image/9A-1.jpg",
+    "title": "不锈钢方形桶",
+    "message": "10L 15L摇盖垃圾桶 不锈钢方形桶带盖家用 静音开合简易方便",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/9A-1.jpg",
+      "assets/goods_image/9A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/9B-1.jpg",
+      "assets/goods_image/9B-2.jpg",
+      "assets/goods_image/9B-3.jpg",
+      "assets/goods_image/9B-4.jpg",
+      "assets/goods_image/9B-5.jpg",
+      "assets/goods_image/9B-6.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：其他垃圾",
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "计量单位：个",
+      "货号：10095"
+    ]
+  }
+
+
+  ,{
+    "id": 10,
+    "type":1,
+    "price":"75.00",
+    "src": "assets/goods_image/10A-1.jpg",
+    "title": "脚踩垃圾桶",
+    "message": "30L脚踩垃圾桶 室内户外脚踏四色加厚分类垃圾桶",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/10A-1.jpg",
+      "assets/goods_image/10A-2.jpg",
+      "assets/goods_image/10A-3.jpg",
+      "assets/goods_image/10A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/10B-1.jpg",
+      "assets/goods_image/10B-2.jpg",
+      "assets/goods_image/10B-3.jpg",
+      "assets/goods_image/10B-4.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：其他垃圾",
+      "计量单位：个",
+
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "货号：10018",
+
+      "产品结构：带盖，密封，带脚踏板",
+      "容量：30L",
+      "尺寸：380*370*460mm",
+      "颜色：红、灰、蓝、绿",
+      "适用场地：写字楼，小区，室内外等"
+    ]
+  }
+
+  ,{
+    "id": 11,
+    "type":1,
+    "price":"35.00",
+    "src": "assets/goods_image/11A-1.jpg",
+    "title": "脚踩圆形垃圾桶",
+    "message": "10L脚踩分类圆形垃圾桶室内办公室垃圾桶",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/11A-1.jpg",
+      "assets/goods_image/11A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/11B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：其他垃圾",
+      "计量单位：个",
+
+      "生产厂商：其他",
+      "是否需要安装：不需要",
+      "货号：10018",
+
+      "产品结构：带盖、脚踩",
+      "容量：10L",
+      "尺寸：26CM*34CM",
+      "颜色：灰 、绿",
+      "使用场地：小区，写字楼，学校，室内外，等"
+    ]
+  }
+
+  ,{
+    "id": 12,
+    "type":35,
+    "title": "加厚黑色垃圾袋",
+    "message": "加厚黑色垃圾袋 新料大号多种尺寸量大可定制每包50只",
+    "price":"0.60",
+    "src": "assets/goods_image/12A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/12A-1.jpg",
+      "assets/goods_image/12A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/12B-1.jpg",
+      "assets/goods_image/12B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：6016",
+      "计量单位：个",
+
+      "产品尺寸（长*宽） (mm)：多种尺寸mm",
+      "产品材质：塑料",
+      "包装规格：50个/包",
+      "是否需要安装：不需要"
+    ]
+  }
+
+  ,{
+    "id": 13,
+    "type":35,
+    "title": "平口点断式垃圾袋",
+    "message": "10L分类垃圾袋 平口点断式垃圾袋绿灰红蓝（1000只起订）",
+    "price":"0.40",
+    "src": "assets/goods_image/13A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/13A-1.jpg",
+      "assets/goods_image/13A-2.jpg",
+      "assets/goods_image/13A-3.jpg",
+      "assets/goods_image/13A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/13B-1.jpg",
+      "assets/goods_image/13B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：6016",
+      "计量单位：个",
+
+      "产品尺寸（长*宽） (mm)：多种尺寸mm",
+      "产品材质：塑料",
+      "包装规格：50个/包",
+      "是否需要安装：不需要"
+    ]
+  }
+
+  ,{
+    "id": 14,
+    "type":3,
+    "title": "二分类垃圾柜",
+    "message": "二分类垃圾柜 304不锈钢 门板分类标识 颜色可定制",
+    "price":"5400.00 ",
+    "src": "assets/goods_image/14A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/14A-1.jpg",
+      "assets/goods_image/14A-2.jpg",
+      "assets/goods_image/14A-3.jpg",
+      "assets/goods_image/14A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/14B-1.jpg",
+      "assets/goods_image/14B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：二分柜",
+      "计量单位：个",
+      "货号: 10027",
+      "是否需要安装：不需要"
+    ]
+  }
+
+  ,{
+    "id": 15,
+    "type":314,
+    "title": "80L大型吸尘器",
+    "message": "京华 JJS080吸尘器 80L大型吸尘器干湿两用",
+    "price":"5400.00 ",
+    "src": "assets/goods_image/15A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/15A-1.jpg",
+      "assets/goods_image/15A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/15B-1.jpg",
+      "assets/goods_image/15B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：JJS080",
+      "计量单位：台",
+      "是否需要安装：不需要",
+
+      "质保时间 (个月)：12个月",
+      "线长 (m)：5mm",
+      "特殊吸嘴类型：圆毛刷",
+      "连续可工作时间 (h)：0h",
+      "额定电压 (V)：0V",
+      "储尘类型：其他/other",
+      "充电时间 (h)：0h",
+      "产品噪音 (dB)：0dB",
+      "产品类型：立式(含筒式)",
+      "产品尺寸（长*宽*高）(mm)：0mm",
+      "额定功率：4800W",
+      "功能：干湿两用式"
+
+    ]
+  }
+
+  ,{
+    "id": 16,
+    "type":314,
+    "title": " 802-35吸尘器",
+    "message": "京华 802-35吸尘器 1.8kw家用商用强力干湿手持桶氏吸水吸尘机",
+    "price":"562.00",
+    "src": "assets/goods_image/16A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/16A-1.jpg",
+      "assets/goods_image/16A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/16B-1.jpg",
+      "assets/goods_image/16B-2.jpg",
+      "assets/goods_image/16B-3.jpg",
+      "assets/goods_image/16B-4.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：802-35",
+      "计量单位：台",
+      "是否需要安装：不需要",
+
+      "质保时间 (个月)：12个月",
+      "线长 (m)：5mm",
+      "特殊吸嘴类型：扁吸嘴，圆毛刷，升级版高效地刷",
+      "连续可工作时间 (h)：1.5h",
+      "额定电压 (V)：220V",
+      "储尘类型：织物类尘袋",
+      "产品噪音 (dB)：80dB",
+      "产品类型：桶式",
+      "产品尺寸（长*宽*高）(mm)：25L35Lmm",
+      "额定功率：1800W",
+      "功能：干湿两用式"
+
+    ]
+  }
+
+  ,{
+    "id": 17,
+    "type":314,
+    "title": "YZ-X2 电动洗地机",
+    "message": "扬子 YZ-X2 电动洗地机手推式地面擦地机",
+    "price":"9088.00",
+    "src": "assets/goods_image/17A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/17A-1.jpg",
+      "assets/goods_image/17A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/17B-1.jpg",
+      "assets/goods_image/17B-2.jpg",
+      "assets/goods_image/17B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：90025- YZ-X2",
+      "计量单位：台",
+      "是否需要安装：不需要",
+
+      "质保时间 (个月)：12个月",
+      "售后服务内容: 店铺三包"
+    ]
+  }
+
+  ,{
+    "id": 18,
+    "type":315,
+    "title": "二分类垃圾柜201不锈钢",
+    "message": "二分类垃圾柜201不锈钢，门板分类标识 颜色可定制",
+    "price":"4600.00",
+    "src": "assets/goods_image/18A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/18A-1.jpg",
+      "assets/goods_image/18A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/18B-1.jpg",
+      "assets/goods_image/18B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：201不锈钢",
+      "计量单位：台",
+      "是否需要安装：不需要",
+
+      "产品结构：201不锈钢，全封闭，带独立式双开门",
+      "尺寸：147CM*90CM*195CM(长*宽*高)",
+      "颜色：绿灰 灰蓝 红蓝 颜色可定制",
+      "适用场地：小区，事业单位，室外等",
+      "可定制材料： 201不锈钢/ 304不锈钢/ 镀锌板材质",
+      "此价格为201不锈钢的价格"
+    ]
+  }
+
+  ,{
+    "id": 19,
+    "type":315,
+    "title": "不锈钢三分类垃圾柜",
+    "message": "304不锈钢三分类垃圾柜 分类标识颜色可定制",
+    "price":"6800.00",
+    "src": "assets/goods_image/18A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/19A-1.jpg",
+      "assets/goods_image/19A-2.jpg",
+      "assets/goods_image/19A-3.jpg",
+      "assets/goods_image/19A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/19B-1.jpg",
+      "assets/goods_image/19B-2.jpg",
+      "assets/goods_image/19B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：304不锈钢",
+      "计量单位：台",
+      "是否需要安装：不需要",
+      "可定制材质：镀锌板、201不锈钢、304不锈钢",
+      "尺寸：221CM*90CM*195CM（长*宽*高）",
+      "适用场地：小区，户外，等"
+    ]
+  }
+
+  ,{
+    "id": 20,
+    "type":315,
+    "title": "201不锈钢4+1分类垃圾柜",
+    "message": "镀锌板 201不锈钢4+1分类垃圾柜 蓝色可回收和红色有害",
+    "price":"5600.00",
+    "src": "assets/goods_image/20A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/20A-1.jpg",
+      "assets/goods_image/20A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/20B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：红蓝镀锌板",
+      "柜子尺寸：长300*宽60*高140 cm（投放口可加装锁）",
+      "商品代码：10086",
+      "产地：浙江省 杭州市 江干区"
+
+
+    ]
+  }
+  ,{
+    "id": 21,
+    "type":316,
+    "title": "前冠金属垃圾投放箱 镀锌板 4桶式",
+    "message": "前冠金属垃圾投放箱 镀锌板 4桶式",
+    "price":"5770.00",
+    "src": "assets/goods_image/21A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/21A-1.jpg",
+      "assets/goods_image/21A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/21B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：4桶式",
+     
+      "产地：浙江省 杭州市 江干区"
+
+    ]
+  }
+  
+  ,{
+    "id": 22,
+    "type":316,
+    "title": "反光背心 防护衣",
+    "message": "批发铁路黄反光背心加肥施工防护衣服路政道路工程局环卫马甲",
+    "price":"21.00",
+    "src": "assets/goods_image/22A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/22A-1.jpg",
+      "assets/goods_image/22A-2.jpg",
+      "assets/goods_image/22A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/22B-1.jpg",
+      "assets/goods_image/22B-2.jpg",
+      "assets/goods_image/22B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：其他家",
+      "型号：14015",
+      "产地：浙江省 杭州市",
+
+      "产品面料：经遍布",
+      "产品款式：反光背心",
+      "类别：反光背心"
+
+
+    ]
+  }
+
+
+  ,{
+    "id": 23,
+    "type":316,
+    "title": " LED充电式带闪灯反光背心",
+    "message": " LED充电式带闪灯反光背心红蓝爆闪马甲公路巡逻交通背心衣服",
+    "price":"136.00",
+    "src": "assets/goods_image/23A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/23A-1.jpg",
+      "assets/goods_image/23A-2.jpg",
+      "assets/goods_image/23A-3.jpg",
+      "assets/goods_image/23A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/23B-1.jpg",
+      "assets/goods_image/23B-2.jpg",
+      "assets/goods_image/23B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：其他家",
+      "型号：14016",
+      "产地：浙江省 杭州市",
+
+      "产品面料：渔网布",
+      "产品款式：充电式,电池款,无灯款",
+      "类别：渔网布"
+
+
+    ]
+  }
+  
+
+  ,{
+    "id": 24,
+    "type":316,
+    "title": "反光马甲网布多兜燕尾背心",
+    "message": "反光马甲网布多兜燕尾背心工作服定制工地施工交通荧光服",
+    "price":"25.00",
+    "src": "assets/goods_image/24A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/24A-1.jpg",
+      "assets/goods_image/24A-2.jpg",
+      "assets/goods_image/24A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/24B-1.jpg",
+      "assets/goods_image/24B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：14014",
+      "产地：浙江省 杭州市 江干区",
+      "产品面料：网布",
+      "产品款式： 多兜网布燕尾",
+      "类别：普灰反光"
+
+
+    ]
+  }
+  
+
+  ,{
+    "id": 25,
+    "type":315,
+    "title": "迷彩睡袋",
+    "message": "防汛迷彩睡袋保暖棉睡袋加厚秋冬成人",
+    "price":"320.00",
+    "src": "assets/goods_image/25A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/25A-1.jpg",
+      "assets/goods_image/25A-2.jpg",
+      "assets/goods_image/25A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/25B-1.jpg",
+      "assets/goods_image/25B-2.jpg",
+      "assets/goods_image/25B-3.jpg",
+      "assets/goods_image/25B-4.jpg",
+      "assets/goods_image/25B-5.jpg",
+      "assets/goods_image/25B-6.jpg",
+      "assets/goods_image/25B-7.jpg",
+      "assets/goods_image/25B-8.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：100010",
+      "产地：浙江省 杭州市 江干区"
+
+
+    ]
+  }
+  
+
+  ,{
+    "id": 26,
+    "type":315,
+    "title": "镀锌板壁挂柜",
+    "message": "镀锌板壁挂柜 塑料袋专用投放箱可回收物投放箱",
+    "price":"240.00 ",
+    "src": "assets/goods_image/26A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/26A-1.jpg",
+      "assets/goods_image/26A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/26B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：90008",
+      "产品材质: 镀锌板",
+      "产地：浙江省 杭州市 江干区",
+      "尺寸：长51cm*宽26cm*高53cm"
+
+
+    ]
+  }
+  
+  ,{
+    "id": 27,
+    "type":441,
+    "title": "实木椅子",
+    "message": "实木椅子 全实木办公椅子四角落地带扶手靠背椅阳台椅",
+    "price":"570.00",
+    "src": "assets/goods_image/27A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/27A-1.jpg",
+      "assets/goods_image/27A-2.jpg",
+      "assets/goods_image/27A-4.jpg",
+      "assets/goods_image/27A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/27B-1.jpg",
+      "assets/goods_image/27B-2.jpg",
+      "assets/goods_image/27B-3.jpg"
+    ],
+
+    "parameter":[
+      "品牌：富雅源霖",
+      "型号：602椅子",
+      "产地：江西省 赣州市",
+
+
+      "净重：28斤",
+      "木质材质：橡胶木",
+      "颜色：胡桃色   浅海棠色  原木色",
+      "靠背高度：58cm"
+
+    ]
+  }
+    
 ]

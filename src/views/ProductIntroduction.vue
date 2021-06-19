@@ -42,13 +42,7 @@
         <el-tab-pane label="产品简介"
                      name="first">
           <div class="tab-pane">
-            <div class="parameter flex wrap jus-sb">
-              <div class="ps"
-                   v-for="(item,index) in goods.parameter"
-                   :key="index">
-                {{item}}
-              </div>
-            </div>
+        
             <el-image v-for="(item,index) in goods.goods_img_list1"
                       :key="index"
                       :src="require('@/'+item)">
@@ -59,7 +53,15 @@
         <el-tab-pane label="
                       技术参数"
                      name="second">
-          <div class="tab-pane">技术参数</div>
+          <div class="tab-pane">
+                <div class="parameter flex wrap jus-sb">
+              <div class="ps"
+                   v-for="(item,index) in goods.parameter"
+                   :key="index">
+                {{item}}
+              </div>
+            </div>
+          </div>
         </el-tab-pane>
         <el-tab-pane label="运用案例"
                      name="third">

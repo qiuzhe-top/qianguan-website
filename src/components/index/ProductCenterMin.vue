@@ -134,8 +134,7 @@ export default {
 
   .product-list {
     max-width: 900px;
-    box-shadow: 0px 0px 5px rgba(221, 221, 221, 0.664);
-
+    padding: 100px;
     .pro-min .el-tabs__nav-scroll .el-tabs__item {
       width: 40px;
     }

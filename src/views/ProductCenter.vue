@@ -3,6 +3,7 @@
     <!-- 背景大图 -->
     <div class="img-box bj1 position-abs-100">
       <el-image fit="cover"
+
                 style="width: 100%"
                 src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-1.jpg"></el-image>
     </div>
@@ -91,6 +92,7 @@ export default {
     var e = 0;
     var page_size = this.$data.page_size;
     this.$data.goods = goods.slice(e, e + page_size);
+    this.goods_type = goods
     var id = this.$route.query.id;
   },
   methods: {
@@ -107,8 +109,9 @@ export default {
       this.$data.total = this.goods_type.length
       var page_size = this.$data.page_size;
       e -= 1;
-      // 把分过类的商品进行分页
-      this.$data.goods = this.goods_type.slice(e * page_size, e * page_size + page_size);
+      // 把分过类的商品进行分页 0 11  12  23
+      this.$data.goods = this.goods_type.slice(e * page_size, e * page_size + page_size-1);
+      console.log(e,this.goods_type,e * page_size, e * page_size + page_size-1)
     },
     toGoods: function (index) {
       this.$router.push({ name: "ProductIntroduction", query: { i: index } });
@@ -123,6 +126,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.product{
+  min-height: 800px;
+}
 .img-box {
   height: 300px;
   box-shadow: inset 1px 5px 10px #bfbfbf73;
@@ -134,7 +140,7 @@ export default {
 }
 .goods {
   width: 100%;
-  min-height: 470px;
+  min-height: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -144,15 +150,16 @@ export default {
 }
 .goods-box {
   width: 350px;
-  min-height: 370px;
+  min-height: 440px;
+  max-height: 500px;
   margin-bottom: 50px;
   text-align: left;
   padding: 10px;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 8px rgba(221, 221, 221, 0.664);
 
   .img {
-    height: 350px / 3 * 2;
+    height: 280px;
     border-bottom: 1px solid rgb(228, 228, 228);
     cursor: pointer;
   }
@@ -184,11 +191,11 @@ export default {
     }
     span:nth-child(1) {
       display: block;
-      width: 70%;
+      width: 65%;
     }
     span:nth-child(2) {
       color: rgb(212, 9, 9);
-      font-size: 35px;
+      font-size: 30px;
       font-weight: 600;
     }
   }

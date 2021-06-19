@@ -1,22 +1,20 @@
 [
 
     {
-      "name": "不锈钢垃圾桶",
+      "name": "垃圾桶",
       "type": "c1",
-      "id":"1641111553",
+      "id":"1",
       "url":"assets/i-1-1.png",
       "list": [
         {
-          "id":6412,
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "id":1,
+          "name": "10L入户垃圾桶塑料中号家用收纳桶办公室厨房杂物桶",
+          "url":"assets/goods_image/1A-1.jpg"
         },
         {
           "id":6412,
-
           "name": "不锈钢垃圾桶",
           "url":"assets/i-1-2.png"
-
         },
         {
           "id":6412,

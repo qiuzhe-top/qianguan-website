@@ -6,7 +6,7 @@
       <el-col :md="4">
         <div class="msg-list ">
           <h3>关于前冠</h3>
-          <p>公司概况</p>
+          <p @click="toGoods('Describe1')">公司概况</p>
           <p>公司资讯</p>
           <p>管理体系</p>
         </div>
@@ -59,9 +59,9 @@
 <script>
 export default {
   methods: {
-    toGoods: function (index) {
-      this.$router.push({ name: 'NewsDetails', query: { i: index } })
-    }
+    toGoods: function (name) {
+      this.$router.push({ name: name })
+    },
   }
 }
 </script>

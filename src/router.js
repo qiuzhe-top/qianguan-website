@@ -59,6 +59,16 @@ export default new Router({
         Bottom: () => import('@/components/Bottom')
       },
     },
+    // 导航底部跳转
+    {
+      path: '/describe1',
+      name: 'Describe1',
+      components: {
+        default: () => import('@/views/BottomNav/describe1'),
+        Header: () => import('@/components/Header'),
+        Bottom: () => import('@/components/Bottom')
+      },
+    },
   ],
   scrollBehavior (to, from, savedPosition) {
     // return 期望滚动到哪个的位置

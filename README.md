@@ -15,6 +15,6 @@
 
 type1:垃圾桶
 type2:垃圾柜
-
+https://www.zcygov.cn/eevees/shop?shopId=132924&searchType=1&utm=a0004.shop-evaluation.0.0.454898e0d0d111eb87c22fbb78e455d2
 
 C:\App\node-v10.24.1-win-x64\npm
