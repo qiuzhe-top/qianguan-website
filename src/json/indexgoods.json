@@ -3,119 +3,139 @@
     {
       "name": "垃圾桶",
       "type": "c1",
-      "id":"1",
-      "url":"assets/goods_image/1A-1.jpg",
+      "id":3,
+      "url":"assets/goods_image/3A-1.png",
       "list": [
         {
-          "id":1,
+          "id":2,
           "name": "10L入户垃圾桶塑料中号家用收纳桶办公室厨房杂物桶",
-          "url":"assets/goods_image/1A-1.jpg"
+          "url":"assets/goods_image/2A-1.png"
         },
         {
-          "id":6412,
+          "id":5,
           "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "url":"assets/goods_image/5A-1.png"
         },
         {
-          "id":6412,
+          "id":9,
 
           "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "url":"assets/goods_image/9A-1.png"
 
         },
         {
-          "id":6412,
+          "id":11,
           "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "url":"assets/goods_image/11A-1.png"
 
         }
       ]
     },
     {
-      "id":"16411113",
-      "name": "不锈钢垃圾桶",
+      "id":18,
+      "name": "分类垃圾柜",
       "type": "c2",
-      "url":"assets/i-1-1.png",
+      "url":"assets/goods_image/18A-1.png",
       
       "list": [
         {
-          "id":6412,
+          "id":21,
 
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
-
-        },
-        {
-          "id":6412,
-
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "name": "金属垃圾投放箱 镀锌板 4桶式",
+          "url":"assets/goods_image/21A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "id":20,
+
+          "name": "201不锈钢4+1分类垃圾柜",
+          "url":"assets/goods_image/20A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+          "id":19,
+
+          "name": "不锈钢三分类垃圾柜",
+          "url":"assets/goods_image/19A-1.png"
+
+        },
+        {
+          "id":35,
+
+          "name": "红蓝垃圾分类柜",
+          "url":"assets/goods_image/35A-1.png"
 
         }
       ]
     },
     {
-      "name": "不锈钢垃圾桶",
-      "id":"16411113",
+      "name": "办公",
+      "id":27,
       "type": "c3",
-      "url":"assets/i-1-1.png",
+      "url":"assets/goods_image/48A-1.png",
       "list": [
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":44,
+
+          "name": "实木办公椅",
+          "url":"assets/goods_image/44A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":46,
+
+          "name": "固体胶21g",
+          "url":"assets/goods_image/46A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":550,
+
+          "name": "得力高效便捷省力起钉器",
+          "url":"assets/goods_image/50A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":49,
+
+          "name": "长尾夹",
+          "url":"assets/goods_image/49A-1.png"
 
         }
       ]
     },
     {
-      "name": "不锈钢垃圾桶",
+      "name": "服装",
       "type": "c4",
-      "id":123,
-      "url":"assets/i-1-1.png",
+      "id":22,
+      "url":"assets/goods_image/22A-1.png",
       "list": [
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":22,
+
+          "name": "反光背心 防护衣",
+          "url":"assets/goods_image/22A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":23,
+
+          "name": "LED充电式带闪灯反光背心",
+          "url":"assets/goods_image/23A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":24,
+
+          "name": "反光马甲网布多兜燕尾背心",
+          "url":"assets/goods_image/24A-1.png"
 
         },
         {
-          "name": "不锈钢垃圾桶",
-          "url":"assets/i-1-2.png"
+      "id":25,
+
+          "name": "迷彩睡袋",
+          "url":"assets/goods_image/25A-1.jpg"
 
         }
       ]

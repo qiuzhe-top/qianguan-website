@@ -113,9 +113,7 @@
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/4B-1.jpg",
-      "assets/goods_image/4B-2.jpg",
-      "assets/goods_image/4B-3.jpg"
+      "assets/goods_image/4B-1.jpg"
     ],
 
     "parameter":[
@@ -340,7 +338,7 @@
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/11B-1.jpg"
+      "assets/goods_image/11B-1.png"
     ],
 
     "parameter":[
@@ -369,8 +367,7 @@
     "src": "assets/goods_image/12A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/12A-1.jpg",
-      "assets/goods_image/12A-2.jpg"
+      "assets/goods_image/12A-1.jpg"
     ],
 
     "goods_img_list1":[
@@ -564,7 +561,7 @@
 
   ,{
     "id": 18,
-    "type":315,
+    "type":2,
     "title": "二分类垃圾柜201不锈钢",
     "message": "二分类垃圾柜201不锈钢，门板分类标识 颜色可定制",
     "price":"4600.00",
@@ -587,7 +584,7 @@
       "是否需要安装：不需要",
 
       "产品结构：201不锈钢，全封闭，带独立式双开门",
-      "尺寸：147CM*90CM*195CM(长*宽*高)",
+      "尺寸：150CM*90CM*195CM(长*宽*高)",
       "颜色：绿灰 灰蓝 红蓝 颜色可定制",
       "适用场地：小区，事业单位，室外等",
       "可定制材料： 201不锈钢/ 304不锈钢/ 镀锌板材质",
@@ -597,7 +594,7 @@
 
   ,{
     "id": 19,
-    "type":315,
+    "type":2,
     "title": "不锈钢三分类垃圾柜",
     "message": "304不锈钢三分类垃圾柜 分类标识颜色可定制",
     "price":"6800.00",
@@ -629,7 +626,7 @@
 
   ,{
     "id": 20,
-    "type":315,
+    "type":2,
     "title": "201不锈钢4+1分类垃圾柜",
     "message": "镀锌板 201不锈钢4+1分类垃圾柜 蓝色可回收和红色有害",
     "price":"5600.00",
@@ -656,7 +653,7 @@
   }
   ,{
     "id": 21,
-    "type":316,
+    "type":2,
     "title": "前冠金属垃圾投放箱 镀锌板 4桶式",
     "message": "前冠金属垃圾投放箱 镀锌板 4桶式",
     "price":"5770.00",
@@ -695,9 +692,9 @@
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/22B-1.jpg",
-      "assets/goods_image/22B-2.jpg",
-      "assets/goods_image/22B-3.jpg"
+      "assets/goods_image/22B-1.png",
+      "assets/goods_image/22B-2.png",
+      "assets/goods_image/22B-3.png"
     ],
 
     "parameter":[
@@ -724,15 +721,13 @@
     "content": "",
     "img_list": [
       "assets/goods_image/23A-1.jpg",
-      "assets/goods_image/23A-2.jpg",
-      "assets/goods_image/23A-3.jpg",
-      "assets/goods_image/23A-4.jpg"
+      "assets/goods_image/23A-2.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/23B-1.jpg",
-      "assets/goods_image/23B-2.jpg",
-      "assets/goods_image/23B-3.jpg"
+      "assets/goods_image/23B-1.png",
+      "assets/goods_image/23B-2.png",
+      "assets/goods_image/23B-3.png"
     ],
 
     "parameter":[
@@ -764,8 +759,8 @@
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/24B-1.jpg",
-      "assets/goods_image/24B-2.jpg"
+      "assets/goods_image/24B-1.png",
+      "assets/goods_image/24B-2.png"
     ],
 
     "parameter":[
@@ -1011,7 +1006,7 @@
  
   ,{
     "id": 33,
-    "type":101,
+    "type":2,
     "title": "新款5+1分类柜，镀锌板带棚带灯",
     "message": "新款5+1分类柜，镀锌板带棚带灯",
     "price":"13500.00",
@@ -1036,7 +1031,7 @@
 
   ,{
     "id": 34,
-    "type":101,
+    "type":2,
     "title": "新款环保垃圾 3+1分类柜，可定制",
     "message": "新款环保垃圾 3+1分类柜，可定制",
     "price":"6800.00",
@@ -1062,7 +1057,7 @@
 
   ,{
     "id": 35,
-    "type":101,
+    "type":2,
     "title": "红蓝垃圾分类柜",
     "message": "红蓝垃圾分类柜 201不锈钢 可定制",
     "price":"3300.00 ",
@@ -1093,10 +1088,10 @@
 
   ,{
     "id": 36,
-    "type":101,
-    "title": "363636363636",
-    "message": "3636363636363636点",
-    "price":"3636363636",
+    "type":2,
+    "title": "不锈钢果壳箱果皮箱",
+    "message": "户外镀锌板 201不锈钢果壳箱果皮箱 分类垃圾箱 冲孔分类垃圾桶",
+    "price":"500.00",
     "src": "assets/goods_image/36A-1.jpg",
     "content": "",
     "img_list": [
@@ -1104,338 +1099,408 @@
       "assets/goods_image/36A-2.jpg"
     ],
     "goods_img_list1":[
-      "assets/goods_image/36B-1.jpg"
+      "assets/goods_image/36B-1.jpg",
+      "assets/goods_image/36B-2.jpg"
     ],
     "parameter":[
       "品牌：前冠",
       "型号：镀锌板带棚五分类",
       "产地：浙江省 杭州市 江干区",
+      "尺寸：1000*360*1000mm",
+      "材质：镀锌板外箱+镀锌板内胆"
     ]
   }
 
 
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 37,
+    "type":2,
+    "title": "不锈钢四分类果壳箱",
+    "message": "镀锌板、201不锈钢四分类果壳箱",
+    "price":"700.00",
+    "src": "assets/goods_image/37A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/37A-1.jpg",
+      "assets/goods_image/37A-2.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/37B-1.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：镀锌板带棚五分类",
+      "是否需要安装: 不需要",
+      "适用场景：家庭使用、工业使用",
+      "货号: 70003"
+
+    ]
+  }
+
+  ,{
+    "id": 38,
+    "type":33,
+    "title": "垃圾分类亭",
+    "message": "高档垃圾分类新标识分类亭定时定点加耐力板广告可定制",
+    "price":"5400.00",
+    "src": "assets/goods_image/38A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/38A-1.jpg",
+      "assets/goods_image/38A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/38B-1.jpg",
+      "assets/goods_image/38B-2.jpg",
+      "assets/goods_image/38B-3.jpg",
+      "assets/goods_image/38B-4.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠"
+    ]
+  }
+
+  ,{
+    "id": 39,
+    "type":34,
+    "title": "垃圾房",
+    "message": "垃圾房 垃圾分类定时定点收集房 投放站 定制品（详请咨询客服）",
+    "price":"30000.00",
+    "src": "assets/goods_image/39A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/39A-1.jpg",
+      "assets/goods_image/39A-2.jpg",
+      "assets/goods_image/39A-3.jpg",
+      "assets/goods_image/39A-4.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/39B-1.jpg",
+      "assets/goods_image/39B-2.jpg",
+      "assets/goods_image/39B-3.jpg",
+      "assets/goods_image/39B-4.jpg",
+      "assets/goods_image/39B-5.jpg",
+      "assets/goods_image/39B-6.jpg",
+      "assets/goods_image/39B-7.jpg",
+      "assets/goods_image/39B-8.jpg",
+      "assets/goods_image/39B-9.jpg",
+      "assets/goods_image/39B-10.jpg",
+      "assets/goods_image/39B-11.jpg",
+      "assets/goods_image/39B-12.jpg",
+      "assets/goods_image/39B-13.jpg",
+      "assets/goods_image/39B-14.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "型号：80001",
+      "产地：浙江省 杭州市",
+      "计量单位：个",
+      "生产厂商：其他",
+      "是否需要安装: 不需要"
+    ]
+
+  }
+
+  ,{
+    "id": 40,
+    "type":34,
+    "title": "分类垃圾柜",
+    "message": "定制镀锌板材质3+1分类垃圾柜，蓝色可回收和红色有害",
+    "price":"3500.00",
+    "src": "assets/goods_image/40A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/40A-1.jpg",
+      "assets/goods_image/40A-2.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/40B-1.jpg",
+      "assets/goods_image/40B-2.jpg"
+    ],
+
+    "parameter":[
+      "品牌：前冠",
+      "产地：浙江省 杭州市 江干区"
+    ]
+  }
+
+  ,{
+    "id": 41,
+    "type":34,
+    "title": "三分类垃圾分类智能柜",
+    "message": "三分类垃圾分类智能柜颜色可定制大号垃圾柜易腐其他有害可回收智能感应",
+    "price":"9800.00",
+    "src": "assets/goods_image/41A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/41A-1.jpg",
+      "assets/goods_image/41A-2.jpg",
+      "assets/goods_image/41A-3.jpg"
+    ],
+
+    "goods_img_list1":[
+      "assets/goods_image/41B-1.jpg",
+      "assets/goods_image/41B-2.jpg",
+      "assets/goods_image/41B-3.jpg",
+      "assets/goods_image/41B-4.jpg",
+      "assets/goods_image/41B-5.jpg",
+      "assets/goods_image/41B-6.jpg"
     ],
 
     "parameter":[
       "品牌：前冠",
       "型号：镀锌板带棚五分类",
       "产地：浙江省 杭州市 江干区",
+      "产品材质：镀锌板",
+      "智能两分类尺寸：L213*W77*H173CM "
     ]
   }
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 42,
+    "type":34,
+    "title": "201不锈钢带棚四分类垃圾柜",
+    "message": "镀锌板、201不锈钢带棚四分类垃圾柜颜色可定制大容量",
+    "price":"8800.00",
+    "src": "assets/goods_image/42A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/42A-1.jpg",
+      "assets/goods_image/42A-3.jpg",
+      "assets/goods_image/42A-2.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
     ],
 
     "parameter":[
       "品牌：前冠",
-      "型号：镀锌板带棚五分类",
+      "型号：10169",
       "产地：浙江省 杭州市 江干区",
+      "尺寸：长290*宽90+50*高210CM(长*宽*高)"
     ]
   }
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 43,
+    "type":33,
+    "title": "201不锈钢三分类垃圾柜",
+    "message": "镀锌板 201不锈钢三分类垃圾柜 门板分类标识 颜色可定制",
+    "price":"4200.00",
+    "src": "assets/goods_image/43A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/43A-1.jpg",
+      "assets/goods_image/43A-2.jpg",
+      "assets/goods_image/43A-3.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/43B-1.jpg",
+      "assets/goods_image/43B-2.jpg",
+      "assets/goods_image/43B-3.jpg"
     ],
 
     "parameter":[
       "品牌：前冠",
       "型号：镀锌板带棚五分类",
       "产地：浙江省 杭州市 江干区",
+      "产品结构：带独立式双开门，完全密闭",
+      "尺寸：长221CM*宽90CM*高195CM",
+      "适用场地：小区，户外，等"
     ]
   }
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 44,
+    "type":441,
+    "title": "实木办公椅",
+    "message": "实木办公椅会议椅家用电脑椅靠背椅实木脚",
+    "price":"168.00",
+    "src": "assets/goods_image/44A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/44A-1.jpg",
+      "assets/goods_image/44A-2.jpg",
+      "assets/goods_image/44A-4.jpg",
+      "assets/goods_image/44A-3.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/44B-1.jpg",
+      "assets/goods_image/44B-2.jpg",
+      "assets/goods_image/44B-3.jpg",
+      "assets/goods_image/44B-4.jpg"
     ],
 
     "parameter":[
       "品牌：前冠",
       "型号：镀锌板带棚五分类",
       "产地：浙江省 杭州市 江干区",
+      "401椅子：高0.90米 宽0.45米 深0.43米 坐高0.45米 靠背高0.48米",
+      "将军椅：高0.91米 宽0.52米 深0.50米 坐高0.45米 靠背高0.49米",
+      "斜扶手椅：高0.91米 宽0.52米 深0.50米 坐高0.45米 靠背高0.49米",
+      "耳朵椅：高1米 宽0.62米 深0.50米 坐高0.50米 靠背高0.60米"
     ]
+
   }
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 45,
+    "type":315,
+    "title": "一次性纸杯",
+    "message": "加厚一次性纸杯可定制logo可印字水杯",
+    "price":"0.25",
+    "src": "assets/goods_image/45A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/45A-1.jpg",
+      "assets/goods_image/45A-2.jpg",
+      "assets/goods_image/45A-3.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/45B-1.jpg",
+      "assets/goods_image/45B-2.jpg"
     ],
 
     "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
+      "品牌：其他家",
+      "型号：11008",
+      "生产厂商：其他",
+      "产品材质：食品级木浆纸食品级PE薄膜"
     ]
   }
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 46,
+    "type":441,
+    "title": "固体胶21g",
+    "message": "得力7102/7101固体胶21g高粘办公文具中号胶棒",
+    "price":"0.80",
+    "src": "assets/goods_image/46A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/46A-1.jpg",
+      "assets/goods_image/46A-2.jpg",
+      "assets/goods_image/46A-3.jpg",
+      "assets/goods_image/46A-4.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/46B-1.jpg",
+      "assets/goods_image/46B-2.jpg",
+      "assets/goods_image/46B-3.jpg",
+      "assets/goods_image/46B-4.jpg",
+      "assets/goods_image/46B-5.jpg",
+      "assets/goods_image/46B-6.jpg"
     ],
 
     "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
+      "品牌：得力/deli",
+      "型号：12059",
       "产地：浙江省 杭州市 江干区",
+      "计量单位：支",
+      "生产厂商：其他",
+      "是否需要安装：不需要"
     ]
   }
+
+
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 48,
+    "type":441,
+    "title": "办公订书机",
+    "message": "得力（deli）0305办公订书机 12#订书器 可订25张纸",
+    "price":"9.00",
+    "src": "assets/goods_image/48A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/48A-1.jpg",
+      "assets/goods_image/48A-2.jpg",
+      "assets/goods_image/48A-3.jpg",
+      "assets/goods_image/48A-4.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/48B-1.jpg",
+      "assets/goods_image/48B-2.jpg",
+      "assets/goods_image/48B-3.jpg",
+      "assets/goods_image/48B-4.jpg",
+      "assets/goods_image/48B-5.jpg"
     ],
 
     "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
+      "品牌：得力/deli",
+      "型号：0305",
       "产地：浙江省 杭州市 江干区",
+      "装订页数 (页)：25页"
     ]
   }
+
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 49,
+    "type":441,
+    "title": "长尾夹",
+    "message": "得力彩色长尾夹8551ES 8552ES 8553ES 8554ES 8555ES 8556ES 票据夹筒装燕尾夹票夹",
+    "price":"6.80",
+    "src": "assets/goods_image/49A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/49A-1.jpg",
+      "assets/goods_image/49A-2.jpg",
+      "assets/goods_image/49A-3.jpg",
+      "assets/goods_image/49A-4.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/49B-1.jpg",
+      "assets/goods_image/49B-2.jpg",
+      "assets/goods_image/49B-3.jpg",
+      "assets/goods_image/49B-4.jpg"
     ],
 
     "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
+      "品牌：得力/deli",
+      "型号：8551ES 8552ES 8553ES 8554ES 8555ES 8556ES",
+      "产地：其他",
+      "质保时间 (个月)：3个月"
     ]
   }
+
   ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
+    "id": 550,
+    "type":441,
+    "title": "得力高效便捷省力起钉器",
+    "message": "得力高效便捷省力起钉器",
+    "price":"2.80",
+    "src": "assets/goods_image/50A-1.jpg",
     "content": "",
     "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
+      "assets/goods_image/50A-1.jpg",
+      "assets/goods_image/50A-2.jpg"
     ],
 
     "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
+      "assets/goods_image/50B-1.jpg",
+      "assets/goods_image/50B-2.jpg"
     ],
 
     "parameter":[
       "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
+      "型号：0231",
+      "产地：江苏省 南京市"
     ]
   }
-  ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
-    "content": "",
-    "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
-    ],
 
-    "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
-    ],
-
-    "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
-    ]
-  }
-  ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
-    "content": "",
-    "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
-    ],
-
-    "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
-    ],
-
-    "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
-    ]
-  }
-  ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
-    "content": "",
-    "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
-    ],
-
-    "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
-    ],
-
-    "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
-    ]
-  }
-  ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
-    "content": "",
-    "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
-    ],
-
-    "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
-    ],
-
-    "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
-    ]
-  }
-  ,{
-    "id": XXX,
-    "type":101,
-    "title": "XXXXXXXXXXXXXXXXXX",
-    "message": "XXXXXXXXXXXXXXXXXXXXXXXX点",
-    "price":"XXXXXXXXXXXXXXX",
-    "src": "assets/goods_image/XXXA-1.jpg",
-    "content": "",
-    "img_list": [
-      "assets/goods_image/XXXA-1.jpg",
-      "assets/goods_image/XXXA-2.jpg"
-    ],
-
-    "goods_img_list1":[
-      "assets/goods_image/XXXB-1.jpg"
-    ],
-
-    "parameter":[
-      "品牌：前冠",
-      "型号：镀锌板带棚五分类",
-      "产地：浙江省 杭州市 江干区",
-    ]
-  }
-  
+ 
 
 ]
