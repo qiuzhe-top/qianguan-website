@@ -61,10 +61,10 @@ export default new Router({
     },
     // 导航底部跳转
     {
-      path: '/describe1',
-      name: 'Describe1',
+      path: '/describe',
+      name: 'Describe',
       components: {
-        default: () => import('@/views/BottomNav/describe1'),
+        default: () => import('@/views/BottomNav/describe'),
         Header: () => import('@/components/Header'),
         Bottom: () => import('@/components/Bottom')
       },

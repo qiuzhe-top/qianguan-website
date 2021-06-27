@@ -17,13 +17,11 @@ export default {
   data () {
     return {
       img_list: [
-        require('@/assets/logo.png'),
-        require('@/assets/logo.png'),
-        require('@/assets/logo.png'),
-        require('@/assets/logo.png'),
-        require('@/assets/logo.png'),
-        require('@/assets/logo.png'),
-        require('@/assets/logo.png'),
+        require('@/assets/lg1.jpg'),
+        require('@/assets/lg2.jpg'),
+        require('@/assets/lg3.jpg'),
+        require('@/assets/lg4.jpg'),
+        require('@/assets/lg5.jpg')
       ]
     }
   }

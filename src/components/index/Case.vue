@@ -12,11 +12,12 @@
       <el-col :xs="24"
               class="el-col-box"
               v-for="(item,index) in case_list"
+              
               :key="index"
               :md="8">
         <div class="grid-content bg-purple">
           <el-image :src="item.src"
-                    flt="none"
+                    flt="cover"
                     class="image"></el-image>
           <span>{{item.title}}</span>
           <span>{{item.msg}}</span>
@@ -35,21 +36,21 @@ export default {
     return {
       case_list: [
         {
-          src: require('@/assets/yy-1.jpg'),
-          title: '科技创新推动环保建设',
-          msg: 'Bridge Inspen'
+          src: require('@/assets/cc1.jpg'),
+          title: '高压水清洗系统在船舶行业中的应用',
+          msg: '船舶建造 船舶维修'
         },
         {
-          src: require('@/assets/yy-1.jpg'),
-          title: '科技创新推动环保建设',
-          msg: 'Bridge Inspen'
+          src: require('@/assets/cc2.jpg'),
+          title: '积碳焦油：超高压微水清洗解决方案',
+          msg: '绿色环保 积碳清洗'
 
 
         },
         {
-          src: require('@/assets/yy-1.jpg'),
-          title: '科技创新推动环保建设',
-          msg: 'Bridge Inspen'
+          src: require('@/assets/cc3.jpg'),
+          title: '铸件清砂：高压水清砂解决方案',
+          msg: '技术创新 效率清砂'
         },
       ]
     }

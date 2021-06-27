@@ -114,7 +114,6 @@ export default {
       e -= 1;
       // 把分过类的商品进行分页 0 11  12  23
       this.$data.goods = this.goods_type.slice(e * page_size, e * page_size + page_size-1);
-      console.log(e,this.goods_type,e * page_size, e * page_size + page_size-1)
     },
     toGoods: function (id) {
       this.$router.push({ name: "ProductIntroduction", query: { id: id } });

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="content">
-      <h1>{{news.title}}</h1>
+      <!-- <h1>{{news.title}}</h1> -->
       <div class="message"
            v-html="news.body"></div>
     </div>
@@ -17,24 +17,10 @@ export default {
       news: {}
     }
   },
-  created: function () {
-    var index = this.$route.query.i
-    if (index) {
-      this.$data.news = news[this.$route.query.i]
-    }
-
-    var id = this.$route.query.id
-    if (id) {
-
-      news.forEach((element) => {
-        var id_d = element["id"];
-        if (id + "" == id_d + "") {
-          this.$data.news = element;
-        }
-      });
-
-    }
-
+  created : function () {
+    this.$data.news = news[this.$route.query.i]
+    console.log(this.$data.news)
+    this.$data.news.body = this.$b64.decode(this.$data.news.body);
   },
   methods: {
 

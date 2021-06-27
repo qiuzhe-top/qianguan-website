@@ -12,11 +12,11 @@
           </div>
 
           <div class="title">
-            售后服务
+            专业售后服务团队
           </div>
 
           <div class="msg">
-            可以了解购买产品后的相关服务和产品升级服务
+            实现最快的服务——和许诺的一样!
           </div>
 
           <div class="button"></div>
@@ -31,11 +31,11 @@
             <el-image :src="require('@/assets/js-1.jpg')"></el-image>
           </div>
           <div class="title">
-            售后服务
+            维修服务
           </div>
 
           <div class="msg">
-            可以了解购买产品后的相关服务和产品升级服务
+            提供全方位的咨询、技术人员经验丰富
           </div>
 
           <div class="button"></div>

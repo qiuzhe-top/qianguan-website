@@ -4,38 +4,38 @@
     <el-row class="public-width width-auto">
 
       <el-col :md="4">
-        <div class="msg-list ">
+        <div class="msg-list">
           <h3>关于前冠</h3>
-          <p @click="toGoods('Describe1')">公司概况</p>
-          <p>公司资讯</p>
-          <p>管理体系</p>
+          <p @click="toGoods(1)">公司概况</p>
+          <p @click="toGoods(2)">公司资讯</p>
+          <p @click="toGoods(3)">管理体系</p>
         </div>
       </el-col>
 
       <el-col :md="4">
         <div class="msg-list ">
           <h3>技术服务</h3>
-          <p>服务支持</p>
-          <p>售后政策</p>
-          <p>售后服务</p>
+          <p @click="toGoods(4)">服务支持</p>
+          <p @click="toGoods(5)">售后政策</p>
+          <p @click="toGoods(6)">售后服务</p>
         </div>
       </el-col>
 
       <el-col :md="4">
         <div class="msg-list ">
           <h3>了解前冠</h3>
-          <p>了解前冠</p>
-          <p>加入前冠</p>
-          <p>前冠动态</p>
+          <p @click="toGoods(7)">了解前冠</p>
+          <p @click="toGoods(8)">加入前冠</p>
+          <p @click="toGoods(9)">前冠动态</p>
         </div>
       </el-col>
 
       <el-col :md="6">
         <div class="msg-list ">
           <h3>联系我们</h3>
-          <p>010-88351020</p>
-          <p>simote001@sina.com</p>
-          <p>浙江省杭州市下城区</p>
+          <p @click="toGoods(10)">010-88351020</p>
+          <p @click="toGoods(11)">simote001@sina.com</p>
+          <p @click="toGoods(12)">浙江省杭州市下城区</p>
         </div>
 
       </el-col>
@@ -59,8 +59,10 @@
 <script>
 export default {
   methods: {
-    toGoods: function (name) {
-      this.$router.push({ name: name })
+    toGoods: function (index) {
+      console.log(index)
+      this.$router.push({ name: "Describe" ,query: { index: index }})
+
     },
   }
 }
@@ -73,6 +75,7 @@ export default {
 .wx-img {
   width: 100px;
   height: 100px;
+  border: 3px solid rgb(139, 139, 139);
 }
 .msg-list {
   text-align: left;
