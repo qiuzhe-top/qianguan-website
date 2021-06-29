@@ -1,21 +1,18 @@
 <template>
   <div id="app">
-
-    <router-view name="Header"
-                 style="background-color: white;"></router-view>
+    <router-view name="Header" style="background-color: white"></router-view>
 
     <div class="public-width width-auto">
       <router-view> </router-view>
     </div>
     <router-view name="Bottom"></router-view>
-
   </div>
 </template>
 
 <script>
 // import { Header } from "@/components/Header.vue";
 export default {
-  components () {
+  components() {
     // Header;
   },
 };
@@ -23,7 +20,7 @@ export default {
 
 <style lang="less">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

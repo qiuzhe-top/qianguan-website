@@ -35,7 +35,8 @@ export default {
 
 <style lang="less" scoped>
 .home div {
-  // margin: 120px 0;
+  // margin: 120px 0;1
+  // ad
 }
 .home div:nth-child(1) {
   margin: 0 0;
