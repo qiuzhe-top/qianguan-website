@@ -5,7 +5,7 @@
 
     </div>
 
-    <h1 class="index-h2">应用案例</h1>
+    <h1 class="index-h2 ">应用案例</h1>
 
     <el-row :gutter="10">
 
@@ -18,7 +18,7 @@
         <div class="grid-content bg-purple">
           <el-image :src="item.src"
                     flt="cover"
-                    class="image"></el-image>
+                    class="image hvr-shrink"></el-image>
           <span>{{item.title}}</span>
           <span>{{item.msg}}</span>
         </div>

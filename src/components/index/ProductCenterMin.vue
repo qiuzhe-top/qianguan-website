@@ -4,11 +4,12 @@
     <div class="back-box1 position-abs-100 bj1"></div>
     <div class="back-box2 position-abs-100 bj2"></div>
 
-    <h1 class="index-h2">产品中心</h1>
-    <div class="product-list width-auto">
-      <el-tabs class="list width-auto"
+    <h1 class="index-h2 ">产品中心</h1>
+    <div class="product-list width-auto  animate__animated animate__slideInUp">
+      <el-tabs class="list width-auto "
                v-model="activeName"
-               @tab-click="handleClick">
+               >
+               <!-- @tab-click="handleClick" -->
         <!-- 切换模块 -->
         <el-tab-pane v-for="(item, index) in product_list"
                      :key="index"
@@ -18,11 +19,11 @@
             <!-- 左边大图 -->
             <el-col :xs="24"
                     :md="9">
-              <div class="grid-content bg-purple box-1">
+              <div class="grid-content bg-purple box-1  animate__animated animate__slideInUp">
                 <el-image :src="require('@/' + item.url)"
                           @click="toGoods(item.id)"
                           fit="contain"
-                          class="img-box">
+                          class="img-box hvr-bob">
                   <div slot="placeholder"
                        class="image-slot">
                     加载中<span class="dot">...</span>
@@ -35,12 +36,12 @@
             <!-- 右边4张图片 -->
             <el-col :xs="24"
                     :md="15">
-              <div class="grid-content bg-purple-light box-2">
+              <div class="grid-content bg-purple-light box-2  animate__animated animate__slideInUp">
                 <div v-for="(item2, index2) in item.list"
                      :key="index2">
                   <el-image :src="require('@/' + item2.url)"
                             fit="contain"
-                            class="img-box"
+                            class="img-box hvr-bob"
                             @click="toGoods(item2.id)">
                     <div slot="placeholder"
                          class="image-slot">
@@ -71,9 +72,8 @@ export default {
   },
 
   methods: {
-    handleClick (tab, event) {
-      console.log(tab, event);
-    },
+    // handleClick (tab, event) {
+    // },
     toGoods: function (index) {
       this.$router.push({ name: 'ProductIntroduction', query: { id: index } })
     }
@@ -204,7 +204,5 @@ export default {
     }
   }
 
-  .box-2 {
-  }
 }
 </style>

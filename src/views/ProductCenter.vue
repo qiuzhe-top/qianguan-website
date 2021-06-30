@@ -96,7 +96,7 @@ export default {
     var page_size = this.$data.page_size;
     this.$data.goods = goods.slice(e, e + page_size);
     this.goods_type = goods
-    var id = this.$route.query.id;
+    // var id = this.$route.query.id;
   },
   methods: {
     get_goods () {
@@ -189,8 +189,7 @@ export default {
   .message {
     margin-top: 10px;
     height: 4em;
-    span {
-    }
+  
     span:nth-child(1) {
       display: block;
       width: 65%;

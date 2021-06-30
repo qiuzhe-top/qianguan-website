@@ -19,23 +19,23 @@
 
           <el-image style="height:100%"
                     :src="require('@/'+item.src)"
-                    @click="toGoods(index)"
+                    @click="toGoods(item.id)"
                     fit="contain"></el-image>
 
         </div>
         <div class="msg ">
           <div class="title "
-               @click="toGoods(index)">{{item.title}}</div>
+               @click="toGoods(item.id)">{{item.title}}</div>
           <div class="message "
-               @click="toGoods(index)">{{item.message}}</div>
+               @click="toGoods(item.id)">{{item.message}}</div>
           <div class="button ">
             <el-button type="primary"
-                       @click="toGoods(index)">查看详情</el-button>
+                       @click="toGoods(item.id)">查看详情</el-button>
           </div>
         </div>
       </div>
     </div>
-    <div v-html="ht"></div>
+    <!-- <div v-html="ht"></div> -->
     <!-- 分页 -->
     <div class="page">
 

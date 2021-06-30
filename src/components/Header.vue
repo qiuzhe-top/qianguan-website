@@ -7,7 +7,8 @@
       <el-menu :default-active="activeIndex"
                class="el-menu-demo"
                mode="horizontal"
-               @select="handleSelect">
+               >
+               <!-- @select="handleSelect" -->
         <!-- horizontal / vertical -->
         <el-menu-item index="1"
                       @click="toPage('Index')">
@@ -63,9 +64,8 @@ export default {
     };
   },
   methods: {
-    handleSelect (key, keyPath) {
-      console.log(key, keyPath);
-    },
+    // handleSelect (key, keyPath) {
+    // },
     toPage (url) {
       this.$router.push({ name: url })
     }
@@ -80,8 +80,7 @@ export default {
 .el-menu.el-menu--horizontal {
   border: none;
 }
-.el-menu-demo {
-}
+
 .el-menu--horizontal > .el-menu-item {
   margin: 0 30px;
 }

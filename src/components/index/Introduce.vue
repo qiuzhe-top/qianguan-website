@@ -8,7 +8,7 @@
               :xs="24"
               :md="12">
 
-        <h3>杭州前冠环保设备有限公司</h3>
+        <h3 class="">杭州前冠环保设备有限公司</h3>
         <span class="msg">Hangzhou Qianguan</span>
         <div class="hr"></div>
         <p>
@@ -27,10 +27,10 @@
       <el-col :xs="24"
               :md="12">
 
-        <div class="img-box">
+        <div class="img-box hvr-grow">
           <el-image :src="url"
                     fit="none"
-                    class="img-box">
+                    class="img-box ">
             <div slot="placeholder"
                  class="image-slot">
               加载中<span class="dot">...</span>

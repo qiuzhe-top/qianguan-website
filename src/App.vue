@@ -5,17 +5,18 @@
     <div class="public-width width-auto">
       <router-view> </router-view>
     </div>
+    
     <router-view name="Bottom"></router-view>
   </div>
 </template>
 
 <script>
 // import { Header } from "@/components/Header.vue";
-export default {
-  components() {
-    // Header;
-  },
-};
+// export default {
+//   components() {
+//     // Header;
+//   },
+// };
 </script>
 
 <style lang="less">

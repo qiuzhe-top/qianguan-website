@@ -7,6 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 import './components/style/style.less'
 Vue.config.productionTip = false
 Vue.prototype.$b64 = require("js-base64").Base64;
+
 Vue.use(ElementUI)
 new Vue({
   router,

@@ -60,9 +60,7 @@
 export default {
   methods: {
     toGoods: function (index) {
-      console.log(index)
       this.$router.push({ name: "Describe" ,query: { index: index }})
-
     },
   }
 }

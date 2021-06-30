@@ -1,31 +1,34 @@
 <template>
   <div>
     <div class="content">
-      <!-- <h1>{{news.title}}</h1> -->
-      <div class="message"
-           v-html="news.body"></div>
+      <!-- <img :src="require('')" alt="" srcset="">       -->
+      <div class="message" v-html="news.body"></div>
+
     </div>
   </div>
 </template>
 
 
 <script>
-import news from "@/json/news.json";
+import new_json from "@/json/news.json";
 export default {
-  data () {
+  data() {
     return {
-      news: {}
-    }
+      news: {},
+    };
   },
-  created : function () {
-    this.$data.news = news[this.$route.query.i]
-    console.log(this.$data.news)
+  created: function () {
+    const id = this.$route.query.i;
+    // var _this = this
+    new_json.forEach((e) => {
+      if (e.id + "" == id) {
+        this.$data.news = e;
+      }
+    });
     this.$data.news.body = this.$b64.decode(this.$data.news.body);
   },
-  methods: {
-
-  }
-}
+  methods: {},
+};
 </script>
 
 <style lang="less" scoped>

@@ -7,10 +7,10 @@
       <el-col :md="12"
               class="box-left">
 
-        <el-image :src="src"
+            <el-image :src="src"
                   class="img"></el-image>
-        <h2>Helix干湿两用喷砂系统~喷砂机 | 走“斜”道</h2>
-        <p>HELIX专利喷枪锥形出口的特殊构造产生的文丘里效应的组合螺旋旋转运动系统相比传统喷枪效率提高30%</p>
+            <h2>热烈欢迎杭州萧山环境物业领导莅临公司考察指导</h2>
+            <p>3月19日，杭州萧山环境物业领导一行莅临前冠环保参观指导，前冠环保总经理奚晓东热情接待并进行了深入的交流。</p>
 
         <div class="line-r">
           <div></div>
@@ -80,7 +80,7 @@ export default {
   },
   methods:{
     toPage(id){
-      router.push({ path: 'NewsDetails', query: { id: id }})
+      this.$router.push({ path: 'NewsDetails', query: { id: id }});
     }
   }
 }
