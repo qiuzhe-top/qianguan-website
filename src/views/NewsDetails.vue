@@ -1,8 +1,15 @@
 <template>
   <div>
     <div class="content">
-      <!-- <img :src="require('')" alt="" srcset="">       -->
       <div class="message" v-html="news.body"></div>
+
+      <img
+        v-for="(url, index) in news.url_list"
+        :key="index"
+        :src="require('@/' + url)"
+        alt="center"
+        srcset=""
+      />
 
     </div>
   </div>
@@ -33,14 +40,13 @@ export default {
 
 <style lang="less" scoped>
 .content {
-  // height: 300px;
   padding: 100px 0;
   text-align: left;
   width: 900px;
   margin: 0 auto;
-  // background-color: rgba(255, 0, 0, 0.432);
-  h1 {
-    text-align: center;
+  text-align: center;
+  img{
+    width: 100%;
   }
 }
 </style>

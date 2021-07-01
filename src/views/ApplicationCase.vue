@@ -13,8 +13,8 @@
 
     <div class="ArticleList">
       <div class="item "
-           v-for="(item,index) in news"
-           :key="index">
+          v-for="(item,index) in news"
+          :key="index">
         <div class="img ">
 
           <el-image style="height:100%"
@@ -23,17 +23,17 @@
                     fit="contain"></el-image>
 
         </div>
-        <div class="msg ">
-          <div class="title "
-               @click="toGoods(item.id)">{{item.title}}</div>
-          <div class="message "
-               @click="toGoods(item.id)">{{item.message}}</div>
-          <div class="button ">
-            <el-button type="primary"
-                       @click="toGoods(item.id)">查看详情</el-button>
-          </div>
+      <div class="msg ">
+        <div class="title "
+              @click="toGoods(item.id)">{{item.title}}</div>
+        <div class="message "
+              @click="toGoods(item.id)">{{item.message}}</div>
+        <div class="button ">
+          <el-button type="primary"
+                      @click="toGoods(item.id)">查看详情</el-button>
         </div>
       </div>
+    </div>
     </div>
     <!-- <div v-html="ht"></div> -->
     <!-- 分页 -->

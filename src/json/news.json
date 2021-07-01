@@ -1,90 +1,120 @@
-[
-  {
-    "id":3,
+[{
+    "id": 3,
     "src": "assets/news_image/wxb1.png",
     "title": "垃圾桶【免费】换新，速来签收！",
     "message": "2021年6月22日",
-    "body": "PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMjkvUmRPYm5BLmpwZyIgYWx0PSJjZW50ZXIiIC8+CjwvZGl2Pg=="
+    "body": "",
+    "url_list": [
+      "assets/news_image/wb1-1.jpeg"
+    ]
   },
   {
-    "id":10,
+    "id": 10,
     "src": "assets/news_image/wxb2.png",
     "title": "端午节必看！！！",
     "message": "2021年6月11日",
-    "body": "PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMjkvUmR2bzFVLmpwZyIgYWx0PSJjZW50ZXIiIC8+IAo8L2Rpdj4="
+    "body": "",
+    "url_list": [
+      "assets/news_image/wxb2-1.jpeg"
+    ]
   },
   {
-    "id":17,
+    "id": 17,
     "src": "assets/news_image/wxb3.png",
     "title": "缅怀袁老，保护地球",
     "message": "2021年5月25日",
-    "body": "PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMjkvUmR2bzFVLmpwZyIgYWx0PSJjZW50ZXIiIC8+IAo8L2Rpdj4="
+    "body": "",
+    "url_list": [
+      "assets/news_image/wxb3-1.jpeg",
+      "assets/news_image/wxb3-2.jpeg"
+    ]
   },
   {
-    "id":24,
-    "src": "assets/news_image/wxb4.png",
-    "title": "垃圾分类 我们的首都“北京”是怎么做的",
-    "message": "2021年5月11日",
-    "body": "标题"
-  },
-  {
-    "id":31,
+    "id": 31,
     "src": "assets/news_image/wxb5.png",
     "title": "感恩劳动人民·前冠环保买就送！",
     "message": "2021年4月30日",
-    "body": "标题"
+    "body": "",
+    "url_list": [
+      "assets/news_image/wxb5-1.jpeg"
+    ]
   },
 
 
   {
-    "id":32,
-    "src":"assets/news_image/wz1-t.webp",
-    "title":"热烈欢迎杭州萧山环境物业领导莅临公司考察指导",
-    "message":"3月19日，杭州萧山环境物业领导一行莅临前冠环保参观指导，前冠环保总经理奚晓东热情接待并进行了深入的交流",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjByenk0LmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
+    "id": 32,
+    "src": "assets/news_image/wz1-t.webp",
+    "title": "热烈欢迎杭州萧山环境物业领导莅临公司考察指导",
+    "message": "3月19日，杭州萧山环境物业领导一行莅临前冠环保参观指导，前冠环保总经理奚晓东热情接待并进行了深入的交流",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz1.jpeg"
+    ]
   },
   {
-    "id":45,
-    "src":"assets/news_image/wz2-t.webp",
-    "title":"热烈欢迎浙江宁围环境服务有限公司来我司交流学习",
-    "message":"2021年4月7日，浙江宁围环境服务有限公司一行11人来我司进行学习、交流。",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBSVW5VLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
+    "id": 45,
+    "src": "assets/news_image/wz2-t.webp",
+    "title": "热烈欢迎浙江宁围环境服务有限公司来我司交流学习",
+    "message": "2021年4月7日，浙江宁围环境服务有限公司一行11人来我司进行学习、交流。",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz2.jpeg"
+    ]
   },
   {
-    "id":52,
-    "src":"assets/news_image/wz3-t.png",
-    "title":"前冠“神器”非接触、精准测温智能体温检测机",
-    "message":"近日，国内疫情出现反弹趋势，国内多地零星散发病例持续不断出现",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBSVW5VLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
+    "id": 52,
+    "src": "assets/news_image/wz3-t.png",
+    "title": "前冠“神器”非接触、精准测温智能体温检测机",
+    "message": "近日，国内疫情出现反弹趋势，国内多地零星散发病例持续不断出现",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz3-1.jpeg",
+      "assets/news_image/wz3-2.jpeg",
+      "assets/news_image/wz3-3.jpeg"
+    ]
   },
   {
-    "id":59,
-    "src":"assets/news_image/wz4-t.webp",
-    "title":"杭州前冠环保团建滑雪记 | 挑战自我 凝聚力量！",
-    "message":"杭州前冠环保团建滑雪记 | 挑战自我 凝聚力量！",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUd2ZlLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUQlNILmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUZFlELmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
+    "id": 59,
+    "src": "assets/news_image/wz4-t.webp",
+    "title": "杭州前冠环保团建滑雪记 | 挑战自我 凝聚力量！",
+    "message": "杭州前冠环保团建滑雪记 | 挑战自我 凝聚力量！",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz4-1.jpeg",
+      "assets/news_image/wz4-2.jpeg",
+      "assets/news_image/wz4-3.jpeg"
+    ]
   },
   {
-    "id":66,
-    "src":"assets/news_image/wz5-t.png",
-    "title":"快来看！这就是 前冠家的 智能垃圾柜！",
-    "message":"快来看！这就是 前冠家的 智能垃圾柜！",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUd2ZlLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUQlNILmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUZFlELmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
-  }
-   ,
+    "id": 66,
+    "src": "assets/news_image/wz5-t.png",
+    "title": "快来看！这就是 前冠家的 智能垃圾柜！",
+    "message": "快来看！这就是 前冠家的 智能垃圾柜！",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz5-1.jpeg",
+      "assets/news_image/wz5-2.jpeg",
+      "assets/news_image/wz5-3.jpeg"
+    ]
+  },
   {
-    "id":74,
-    "src":"assets/news_image/wz6-t.webp",
-    "title":"牵手前冠|前冠环保为2020浙江大湾区自行车公开赛钱塘新区站助力！",
-    "message":"牵手前冠|前冠环保为2020浙江大湾区自行车公开赛钱塘新区站助力！",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUd2ZlLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUQlNILmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUjBUZFlELmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
-  }
-  ,
+    "id": 74,
+    "src": "assets/news_image/wz6-t.webp",
+    "title": "牵手前冠|前冠环保为2020浙江大湾区自行车公开赛钱塘新区站助力！",
+    "message": "牵手前冠|前冠环保为2020浙江大湾区自行车公开赛钱塘新区站助力！",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz6-1.jpeg"
+    ]
+  },
   {
-    "id":84,
-    "src":"assets/news_image/wz7-t.webp",
-    "title":"杭州前冠环保受邀参加 “2020垃圾分类杭州高峰论坛”！！！",
-    "message":"杭州前冠环保受邀参加 “2020垃圾分类杭州高峰论坛”！！！",
-    "body":"PGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUkJuU0ZQLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUkJua0xqLmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij4KCTxpbWcgc3JjPSJodHRwczovL3ozLmF4MXguY29tLzIwMjEvMDYvMzAvUkJuOG05LmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiIC8+IAo8L2Rpdj4="
+    "id": 84,
+    "src": "assets/news_image/wz7-t.webp",
+    "title": "杭州前冠环保受邀参加 “2020垃圾分类杭州高峰论坛”！！！",
+    "message": "杭州前冠环保受邀参加 “2020垃圾分类杭州高峰论坛”！！！",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz7-1.jpeg"
+    ]
   }
 ]
