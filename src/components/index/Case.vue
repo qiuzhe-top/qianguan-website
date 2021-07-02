@@ -43,15 +43,15 @@ export default {
         },
         {
           id: 66,
-          src: require('@/assets/news_image/wz5-t.png'),
+          src: require('@/assets/c0429.jpg'),
           title: '智能垃圾柜',
           msg: '社区智能垃圾柜的“时尚生活”'
         },
         {
           id: 121,
-          src: require('@/assets/cc3.jpg'),
+          src: require('@/assets/4fd2.jpg'),
           title: '智能分类垃圾收集箱',
-          msg: '智能分类垃圾收集箱系列，适用于医院、农村社区...'
+          msg: '适用于医院、农村社区...'
         },
       ]
     }
@@ -87,7 +87,7 @@ export default {
     right: 0;
     bottom: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 2;
   }
   span {

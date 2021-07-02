@@ -5,14 +5,14 @@
     <div class="img-box bj1 position-abs-100">
       <el-image fit="cover"
                 style="width:100%"
-                src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-3.jpg"></el-image>
+                 :src="require('@/assets/bander4.jpg')"></el-image>
 
     </div>
     <div class="img-box">
     </div>
 
     <div class="ArticleList">
-      <div class="item "
+      <div class="item animate__animated animate__pulse"
           v-for="(item,index) in news"
           :key="index">
         <div class="img ">

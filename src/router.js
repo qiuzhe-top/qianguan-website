@@ -59,6 +59,15 @@ export default new Router({
         Bottom: () => import('@/components/Bottom')
       },
     },
+    {
+      path: '/software',
+      name: 'Software',
+      components: {
+        default: () => import('@/views/Software'),
+        Header: () => import('@/components/Header'),
+        Bottom: () => import('@/components/Bottom')
+      },
+    },
     // 导航底部跳转
     {
       path: '/describe',
@@ -70,8 +79,8 @@ export default new Router({
       },
     },
   ],
-  scrollBehavior (to, from, savedPosition) {
-    // return 期望滚动到哪个的位置
-    return { x: 0, y: 0 }
-    }
+  // scrollBehavior (to, from, savedPosition) {
+  //   // return 期望滚动到哪个的位置
+  //   return { x: 0, y: 0 }
+  //   }
 })

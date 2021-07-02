@@ -26,3 +26,6 @@ http://www.pcjson.com/caiji/
 
 https://imgtu.com/
 C:\App\node-v10.24.1-win-x64\npm
+
+动态效果
+https://animate.style/

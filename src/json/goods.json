@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "type": 1,
     "price": 10.00,
@@ -89,7 +90,7 @@
   },
   {
     "id": 4,
-    "type": 1,
+    "type": 101,
     "price": 220.00,
     "src": "assets/goods_image/4A-1.jpg",
     "title": "240L垃圾桶",
@@ -166,15 +167,12 @@
       "计量单位：个",
       "生产厂商：其他",
       "是否需要安装：不需要",
-      "货号：10140",
       "外部材质：塑料",
       "适用场景：家庭使用、工业使用",
       "开合方式：翻盖",
       "货号：10001",
       "产品容量：240L",
-      "产品类型：翻盖",
-      "计价单位：元",
-      "产品形状：长筒形"
+      "产品类型：翻盖"
     ]
   },
   {
@@ -873,7 +871,7 @@
   },
   {
     "id": 33,
-    "type": 2,
+    "type": 101,
     "title": "新款5+1分类柜，镀锌板带棚带灯",
     "message": "新款5+1分类柜，镀锌板带棚带灯",
     "price": "13500.00",
@@ -917,7 +915,7 @@
   },
   {
     "id": 35,
-    "type": 2,
+    "type": 131,
     "title": "红蓝垃圾分类柜",
     "message": "红蓝垃圾分类柜 201不锈钢 可定制",
     "price": "3300.00 ",
@@ -1073,7 +1071,7 @@
   },
   {
     "id": 41,
-    "type": 34,
+    "type": 131,
     "title": "三分类垃圾分类智能柜",
     "message": "三分类垃圾分类智能柜颜色可定制大号垃圾柜易腐其他有害可回收智能感应",
     "price": "9800.00",
@@ -1303,6 +1301,32 @@
     "goods_img_list1": [
       "assets/goods_image/50B-1.jpg",
       "assets/goods_image/50B-2.jpg"
+    ],
+    "parameter": [
+      "品牌：前冠",
+      "型号：0231",
+      "产地：江苏省 南京市"
+    ]
+  },
+  {
+    "id": 550,
+    "type": 131,
+    "title": "四分类智能柜垃圾分类柜人脸识别自动称重平台大数据分类箱",
+    "message": "四分类智能柜垃圾分类柜人脸识别自动称重平台大数据分类箱",
+    "price": "23000.00",
+    "src": "assets/goods_image/52A-1.jpg",
+    "content": "",
+    "img_list": [
+      "assets/goods_image/52A-1.jpg",
+      "assets/goods_image/52A-2.jpg"
+    ],
+    "goods_img_list1": [
+      "assets/goods_image/52B-1.PNG",
+      "assets/goods_image/52B-2.PNG",
+      "assets/goods_image/52B-3.PNG",
+      "assets/goods_image/52B-4.PNG",
+      "assets/goods_image/52B-5.PNG",
+      "assets/goods_image/52B-6s.PNG"
     ],
     "parameter": [
       "品牌：前冠",

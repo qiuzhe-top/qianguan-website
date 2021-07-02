@@ -19,7 +19,7 @@
             <!-- 左边大图 -->
             <el-col :xs="24"
                     :md="9">
-              <div class="grid-content bg-purple box-1  animate__animated animate__slideInUp">
+              <div class="grid-content bg-purple box-1  animate__animated animate__slideInDown">
                 <el-image :src="require('@/' + item.url)"
                           @click="toGoods(item.id)"
                           fit="contain"

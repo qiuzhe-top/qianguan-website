@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- 产品展示 -->
-    <div class="header">
+    <div class="header" id="header">
 
       <div class="goods ">
 
@@ -92,10 +92,10 @@ export default {
   created: function () {
     // this.$data.goods = goods[this.$route.query.i]
 
-
+      // document.documentElement.scrollTop=0
     var id = this.$route.query.id
     if (id) {
-
+      
       goods.forEach((element) => {
         var id_d = element["id"];
         if (id + "" == id_d + "") {

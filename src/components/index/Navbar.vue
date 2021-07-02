@@ -26,6 +26,7 @@ export default {
       carousel_height_str: "height: 550px",
       carousel_img_list: [
         'assets/bander1.jpg',
+        'assets/bander10.jpg',
       ]
     };
   },

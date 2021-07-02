@@ -1,11 +1,12 @@
 <template>
   <div class="product">
     <!-- 背景大图 -->
-    <div class="img-box bj1 position-abs-100">
+    <div class="img-box bj1 position-abs-100 ">
       <el-image fit="cover"
 
                 style="width: 100%"
-                src="https://demosc.chinaz.net/Files/DownLoad/moban/202105/moban5479/extra-images/slide-1.jpg"></el-image>
+
+                :src="require('@/assets/bander3.jpg')"></el-image>
     </div>
 
     <div class="img-box"></div>
@@ -22,7 +23,7 @@
 
     <!-- 商品导航 -->
     <div class="goods p-r">
-      <div class="nav p-a">
+      <div class="nav p-a animate__animated animate__bounceInLeft">
         <el-tree :data="nav_list"
                  :props="defaultProps"
                  :default-expand-all="true"
@@ -32,10 +33,10 @@
       </div>
 
       <!-- 商品列表 -->
-      <div class="goods-box"
+      <div class="goods-box animate__animated animate__headShake"
            v-for="(item, index) in goods"
            :key="index">
-        <div class="img">
+        <div class="img ">
           <el-image style="height: 100%"
           class=" hvr-bob"
                     :src="require('@/' + item.src)"
@@ -116,8 +117,9 @@ export default {
       // 把分过类的商品进行分页 0 11  12  23
       this.$data.goods = this.goods_type.slice(e * page_size, e * page_size + page_size-1);
     },
-    toGoods: function (id) {
-      this.$router.push({ name: "ProductIntroduction", query: { id: id } });
+    toGoods: function (id) { 
+      // 
+      this.$router.push({ path: "ProductIntroduction", query: { id: id } });
     },
     // 点击导航
     handleNodeClick: function (e1) {
