@@ -4,7 +4,7 @@
       <h1 class="index-h2">公司动态</h1>
       <!-- 左边 -->
       <el-col :md="12" class="box-left">
-        <el-image :src="src" @click="toPage(32)" class="img"></el-image>
+        <el-image :src="src" @click="toPage(32)" class="img hvr-bob"></el-image>
         <h2 @click="toPage(32)">
           热烈欢迎杭州萧山环境物业领导莅临公司考察指导
         </h2>
@@ -92,6 +92,8 @@ export default {
 .img {
   width: 500px;
   height: 290px;
+      cursor: pointer;
+
 }
 .box-left {
   text-align: left;
@@ -100,6 +102,8 @@ export default {
     width: 100%;
     text-align: left;
     margin: 30px 0;
+      cursor: pointer;
+
   }
 }
 .el-row {
@@ -115,6 +119,7 @@ export default {
       width: 40px;
       height: 8px;
       background-color: rgb(19, 103, 158);
+      
     }
     .more {
       font-size: 15px;
@@ -122,14 +127,21 @@ export default {
       color: rgb(19, 103, 158);
       cursor: pointer;
     }
+    h4{
+      cursor: pointer;
+    }
   }
 
   h3 {
     margin: 10px 0;
-  }
+      cursor: pointer;
 
+  }
+ 
   p {
     font-size: 15px;
+      cursor: pointer;
+
   }
 }
 .line-r {

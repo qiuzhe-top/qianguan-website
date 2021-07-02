@@ -4,7 +4,7 @@
     <h1 class="index-h2">合作伙伴</h1>
 
     <div class="list">
-      <el-image class="img"
+      <el-image class="img hvr-grow"
                 v-for="src in img_list"
                 :key="src"
                 :src="src"></el-image>

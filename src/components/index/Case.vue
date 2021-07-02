@@ -36,21 +36,22 @@ export default {
     return {
       case_list: [
         {
-          src: require('@/assets/cc1.jpg'),
-          title: '高压水清洗系统在船舶行业中的应用',
-          msg: '船舶建造 船舶维修'
+          id: 52,
+          src: require('@/assets/news_image/wz3-t.png'),
+          title: '精准测温智能体温检测机',
+          msg: '近日，国内疫情出现反弹...'
         },
         {
-          src: require('@/assets/cc2.jpg'),
-          title: '积碳焦油：超高压微水清洗解决方案',
-          msg: '绿色环保 积碳清洗'
-
-
+          id: 66,
+          src: require('@/assets/news_image/wz5-t.png'),
+          title: '智能垃圾柜',
+          msg: '社区智能垃圾柜的“时尚生活”'
         },
         {
+          id: 121,
           src: require('@/assets/cc3.jpg'),
-          title: '铸件清砂：高压水清砂解决方案',
-          msg: '技术创新 效率清砂'
+          title: '智能分类垃圾收集箱',
+          msg: '智能分类垃圾收集箱系列，适用于医院、农村社区...'
         },
       ]
     }
@@ -77,7 +78,7 @@ export default {
   position: relative;
   .image {
     // width: @box-size - 50;
-    // height: 100%;
+    height: 100%;
   }
   .image::before {
     content: '';
@@ -86,11 +87,11 @@ export default {
     right: 0;
     bottom: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.13);
     z-index: 2;
   }
   span {
-    position: absolute;
+    position: absolute; 
     bottom: 10px;
     left: 30px;
     font-size: 14px;

@@ -37,6 +37,7 @@
            :key="index">
         <div class="img">
           <el-image style="height: 100%"
+          class=" hvr-bob"
                     :src="require('@/' + item.src)"
                     @click="toGoods(item.id)"
                     fit="contain"></el-image>

@@ -89,7 +89,7 @@
     "id": 66,
     "src": "assets/news_image/wz5-t.png",
     "title": "快来看！这就是 前冠家的 智能垃圾柜！",
-    "message": "快来看！这就是 前冠家的 智能垃圾柜！",
+    "message": "社区智能垃圾柜的“时尚生活”",
     "body": "",
     "url_list": [
       "assets/news_image/wz5-1.jpeg",
@@ -115,6 +115,16 @@
     "body": "",
     "url_list": [
       "assets/news_image/wz7-1.jpeg"
+    ]
+  },
+  {
+    "id": 121,
+    "src": "assets/news_image/wz8-t.jpeg",
+    "title": "智能分类垃圾收集箱",
+    "message": "智能分类垃圾收集箱系列，适用于医院、农村社区等等",
+    "body": "",
+    "url_list": [
+      "assets/news_image/wz8-1.jpeg"
     ]
   }
 ]

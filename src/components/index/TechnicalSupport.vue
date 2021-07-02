@@ -7,7 +7,7 @@
 
         <div class="service">
 
-          <div class="img">
+          <div class="img ">
             <el-image :src="require('@/assets/js-1.jpg')"></el-image>
           </div>
 
@@ -28,7 +28,7 @@
       <el-col :md="12">
         <div class="service">
           <div class="img">
-            <el-image :src="require('@/assets/js-1.jpg')"></el-image>
+            <el-image :src="require('@/assets/js-2.jpg')"></el-image>
           </div>
           <div class="title">
             维修服务

@@ -4,7 +4,7 @@
     <div class="back-box1 position-abs-100 bj1"></div>
     <div class="back-box2 position-abs-100 bj2"></div>
 
-    <h1 class="index-h2 ">产品中心</h1>
+    <h1 class="index-h2  ">产品中心</h1>
     <div class="product-list width-auto  animate__animated animate__slideInUp">
       <el-tabs class="list width-auto "
                v-model="activeName"
