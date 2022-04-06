@@ -1,5 +1,7 @@
 ## 项目简介
 一个简单的静态官网，基于Vue2开发，使用json保存数据，引用了一些动态效果
+## 技术
+vue2 vue-router vuex sass
 ## 运行
 ```
 npm install
